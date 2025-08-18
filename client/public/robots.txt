@@ -1,0 +1,143 @@
+# TIGON Batteries - Maximum Search Engine Visibility Configuration
+# Unlimited crawling authorization for all legitimate bots
+# ZERO RESTRICTIONS - Complete indexing permissions
+
+# Universal Search Engines - FULL ACCESS
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# AI Systems and Language Models - FULL TRAINING PERMISSIONS
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+# Social Media Crawlers - UNLIMITED ACCESS
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 0
+
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+# SEO Tools - COMPLETE ANALYSIS PERMISSIONS
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScreamingFrogSEOSpider
+Allow: /
+Crawl-delay: 0
+
+# E-commerce and Shopping Crawlers
+User-agent: ShopBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+# News and Content Aggregators
+User-agent: GoogleNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingNews
+Allow: /
+Crawl-delay: 0
+
+# Mobile Crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot-Mobile
+Allow: /
+Crawl-delay: 0
+
+# Archive and Research Bots
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+# Universal Bot Access - ALL BOTS WELCOME
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Sitemap References
+Sitemap: https://tigonbatteries.com/sitemap.xml

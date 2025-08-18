@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>TIGON Batteries</ShortName>
+  <Description>Search TIGON Batteries for electric vehicle battery solutions - Golf Cart, LSV, NEV, MSV batteries</Description>
+  <Tags>batteries golf cart electric vehicle LSV NEV MSV</Tags>
+  <Contact>1-844-844-6638</Contact>
+  <Url type="text/html" template="https://tigonbatteries.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://tigonbatteries.com/api/search/suggestions?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://tigonbatteries.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://tigonbatteries.com/tigon-logo.png</Image>
+  <Query role="example" searchTerms="6V golf cart battery"/>
+  <Developer>TIGON Batteries Development Team</Developer>
+  <Attribution>Search provided by TIGON Batteries - Expert Electric Vehicle Battery Solutions</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

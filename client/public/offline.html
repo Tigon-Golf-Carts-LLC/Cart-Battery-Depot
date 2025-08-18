@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - TIGON Batteries</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3f4f6;
+            color: #374151;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #af1f31;
+            margin-bottom: 16px;
+            font-size: 24px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #6b7280;
+        }
+        .phone-link {
+            display: inline-block;
+            background: #16a34a;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            margin: 10px;
+            transition: background 0.2s;
+        }
+        .phone-link:hover {
+            background: #15803d;
+        }
+        .retry-btn {
+            display: inline-block;
+            background: #af1f31;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .retry-btn:hover {
+            background: #991b2a;
+        }
+        .offline-info {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 20px 0;
+        }
+        .features {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .features li:before {
+            content: "✓ ";
+            color: #16a34a;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/tigon-logo.png" alt="TIGON Batteries" class="logo" onerror="this.style.display='none'">
+        
+        <h1>You're Currently Offline</h1>
+        
+        <div class="offline-info">
+            <strong>No Internet Connection</strong><br>
+            Please check your internet connection and try again.
+        </div>
+        
+        <p>Don't worry! You can still reach our battery experts directly for immediate assistance with your electric vehicle battery needs.</p>
+        
+        <div>
+            <a href="tel:1-844-844-6638" class="phone-link">
+                📞 Call Battery Experts<br>
+                <small>1-844-844-6638</small>
+            </a>
+        </div>
+        
+        <p><strong>Business Hours:</strong><br>Monday - Saturday: 8AM - 5PM EST</p>
+        
+        <div class="features">
+            <h3>Our Expert Team Can Help With:</h3>
+            <ul>
+                <li>Golf Cart Battery Selection</li>
+                <li>LSV, NEV, MSV Battery Solutions</li>
+                <li>96+ Battery Configuration Options</li>
+                <li>Professional Installation Services</li>
+                <li>Technical Support & Troubleshooting</li>
+                <li>Pricing and Availability Information</li>
+            </ul>
+        </div>
+        
+        <button onclick="window.location.reload()" class="retry-btn">
+            🔄 Try Again
+        </button>
+        
+        <p><small>This page works offline thanks to our Progressive Web App technology. When your connection returns, you'll have full access to our complete battery catalog and expert resources.</small></p>
+    </div>
+
+    <script>
+        // Check if connection is restored
+        function checkConnection() {
+            if (navigator.onLine) {
+                // Connection restored, reload the page
+                window.location.reload();
+            }
+        }
+        
+        // Listen for connection restored
+        window.addEventListener('online', checkConnection);
+        
+        // Periodically check connection
+        setInterval(() => {
+            if (navigator.onLine) {
+                checkConnection();
+            }
+        }, 30000); // Check every 30 seconds
+        
+        // Service worker registration for offline functionality
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registered successfully');
+                })
+                .catch(error => {
+                    console.log('Service Worker registration failed:', error);
+                });
+        }
+    </script>
+</body>
+</html>

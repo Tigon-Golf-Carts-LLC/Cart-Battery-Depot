@@ -1,0 +1,37 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "TIGONBATTERIES.com.tigonbatteries.app" ],
+        "components": [
+          {
+            "/": "/products/*",
+            "comment": "Product catalog deep linking"
+          },
+          {
+            "/": "/product/*", 
+            "comment": "Individual product pages"
+          },
+          {
+            "/": "/battery-selector",
+            "comment": "Battery selector tool"
+          },
+          {
+            "/": "/battery-guide", 
+            "comment": "Educational content"
+          },
+          {
+            "/": "/contact",
+            "comment": "Contact information"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [ "TIGONBATTERIES.com.tigonbatteries.app" ]
+  },
+  "appclips": {
+    "apps": [ "TIGONBATTERIES.com.tigonbatteries.clip" ]
+  }
+}
