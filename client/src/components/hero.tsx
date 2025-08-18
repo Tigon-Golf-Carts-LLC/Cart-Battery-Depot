@@ -4,8 +4,19 @@ import { Phone, Search, CheckCircle, Battery, Truck, Zap, Shield } from "lucide-
 
 export default function Hero() {
   return (
-    <section className="hero-gradient text-white py-16 lg:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative text-white py-16 lg:py-24 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/hero-background.jpg)'
+        }}
+      />
+      {/* Dark Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+      {/* Content */}
+      <div className="relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
@@ -67,6 +78,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
