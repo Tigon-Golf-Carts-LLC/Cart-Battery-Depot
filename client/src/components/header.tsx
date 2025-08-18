@@ -72,7 +72,7 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:1-844-844-6638" 
-                className="hidden sm:flex bg-tigon-orange text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center"
+                className="hidden sm:flex bg-tigon-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
               >
                 <Phone className="h-4 w-4 mr-2" />
                 1-844-844-6638
@@ -113,7 +113,7 @@ export default function Header() {
                     <div className="border-t pt-4">
                       <a 
                         href="tel:1-844-844-6638" 
-                        className="flex items-center justify-center bg-tigon-orange text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-tigon-green text-white px-4 py-3 rounded-lg font-semibold"
                       >
                         <Phone className="h-4 w-4 mr-2" />
                         Call Expert: 1-844-844-6638
