@@ -13,7 +13,7 @@ export default function Footer() {
               <img 
                 src="/attached_assets/tigon-logo.png" 
                 alt="TIGON Batteries Logo" 
-                className="h-10 w-auto mr-3"
+                className="h-30 w-auto mr-3"
               />
               <div className="text-2xl font-bold text-tigon-red">
                 TIGON <span className="text-tigon-green">Batteries</span>
