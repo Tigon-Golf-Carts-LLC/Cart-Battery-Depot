@@ -151,7 +151,7 @@ export default function ProductDetail() {
             <Card className="overflow-hidden">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                  src=""
                   alt={product.altText}
                   className="w-full h-96 object-cover"
                 />

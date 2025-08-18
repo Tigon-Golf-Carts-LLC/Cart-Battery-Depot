@@ -3,7 +3,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Minus, Plus, Trash2, Phone, ShoppingBag } from "lucide-react";
+import { Minus, Plus, Trash2, Phone, ShoppingBag, Battery } from "lucide-react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
@@ -116,11 +116,9 @@ export default function ShoppingCartComponent() {
                 <div className="space-y-4">
                   {cartItems.map((item) => (
                     <div key={item.id} className="flex gap-4 p-4 border rounded-lg">
-                      <img
-                        src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
-                        alt={item.product?.name || "Battery"}
-                        className="w-16 h-16 object-cover rounded"
-                      />
+                      <div className="w-16 h-16 bg-tigon-red/10 rounded flex items-center justify-center">
+                        <Battery className="h-8 w-8 text-tigon-red" />
+                      </div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-sm">{item.product?.name}</h4>
                         <p className="text-xs text-gray-500">{item.product?.technology}</p>

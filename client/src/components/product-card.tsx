@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Phone, ShoppingCart } from "lucide-react";
+import { Phone, ShoppingCart, Battery } from "lucide-react";
 import { type Product } from "@shared/schema";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
@@ -51,12 +51,10 @@ export default function ProductCard({ product, showBestSeller = false }: Product
 
   return (
     <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
-      <div className="relative">
-        <img 
-          src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200" 
-          alt={product.altText}
-          className="w-full h-48 object-cover" 
-        />
+      <div className="relative bg-gradient-to-br from-tigon-red/5 to-tigon-orange/5 p-6 text-center">
+        <div className="bg-tigon-red/10 w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center">
+          <Battery className="h-10 w-10 text-tigon-red" />
+        </div>
         {showBestSeller && (
           <Badge className="absolute top-4 left-4 bg-tigon-green text-white">
             Best Seller

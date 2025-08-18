@@ -325,7 +325,7 @@ export const ProductUtils = {
 
   getProductImageUrl: (product: Product, index: number = 0): string => {
     // Since we're using placeholder images, return a consistent URL
-    return "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300";
+    return "";
   },
 
   generateProductId: (series: string, category: string, technology: string): string => {

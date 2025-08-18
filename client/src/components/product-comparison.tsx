@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { X, Phone, ShoppingCart, CheckCircle, AlertTriangle } from "lucide-react";
+import { X, Phone, ShoppingCart, CheckCircle, AlertTriangle, Battery } from "lucide-react";
 import { type Product } from "@shared/schema";
 
 interface ProductComparisonProps {
@@ -47,11 +47,9 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
             </Button>
             
             <CardContent className="p-4">
-              <img 
-                src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200"
-                alt={product.altText}
-                className="w-full h-32 object-cover rounded mb-3"
-              />
+              <div className="w-full h-32 bg-tigon-red/10 rounded mb-3 flex items-center justify-center">
+                <Battery className="h-12 w-12 text-tigon-red" />
+              </div>
               
               <h4 className="font-semibold text-sm mb-2">{product.name}</h4>
               <Badge variant="outline" className="mb-2">{product.technology}</Badge>
