@@ -61,11 +61,11 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
-        // TIGON Brand Colors - Main color is RED #af1f31
-        'tigon-red': "var(--tigon-red)",
-        'tigon-blue': "var(--tigon-blue)",
-        'tigon-green': "var(--tigon-green)",
-        'tigon-orange': "var(--tigon-orange)"
+        // Cart Battery Depot Brand Colors - Main color is RED #af1f31
+        'cart-red': "var(--cart-red)",
+        'cart-blue': "var(--cart-blue)",
+        'cart-green': "var(--cart-green)",
+        'cart-orange': "var(--cart-orange)"
       },
       fontFamily: {
         sans: ["var(--font-sans)"],

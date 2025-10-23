@@ -343,7 +343,7 @@ export const ProductUtils = {
       .replace('flooded-lead-acid', 'flooded')
       .replace('lithium-ion-lifepo4', 'lithium');
     
-    return `tigon-${series.toLowerCase()}-${categorySlug}-${techSlug}`;
+    return `cart-battery-depot-${series.toLowerCase()}-${categorySlug}-${techSlug}`;
   },
 
   extractVoltageFromSpecs: (product: Product): number => {
@@ -422,7 +422,8 @@ export const PRODUCT_CONSTANTS = {
   PHONE_NUMBER: "1-844-888-7732",
   
   SEO_KEYWORDS: [
-    "TIGON Batteries",
+    "Cart Battery Depot",
+    "Golf Cart Batteries Depot",
     "Golf Cart Batteries", 
     "LSV Batteries",
     "NEV Batteries",

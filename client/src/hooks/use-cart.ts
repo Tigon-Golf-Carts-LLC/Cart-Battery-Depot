@@ -19,7 +19,7 @@ export const useCart = create<CartStore>()(
       setItemCount: (count) => set({ itemCount: count }),
     }),
     {
-      name: 'tigon-cart-storage',
+      name: 'cart-battery-depot-cart-storage',
     }
   )
 );

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cross-domain-policy>
   <site-control permitted-cross-domain-policies="master-only"/>
-  <allow-access-from domain="tigonbatteries.com" secure="true"/>
-  <allow-access-from domain="*.tigonbatteries.com" secure="true"/>
-  <allow-access-from domain="www.tigonbatteries.com" secure="true"/>
-  <allow-http-request-headers-from domain="tigonbatteries.com" headers="*" secure="true"/>
-  <allow-http-request-headers-from domain="*.tigonbatteries.com" headers="*" secure="true"/>
+  <allow-access-from domain="cartbatterydepot.com" secure="true"/>
+  <allow-access-from domain="*.cartbatterydepot.com" secure="true"/>
+  <allow-access-from domain="www.cartbatterydepot.com" secure="true"/>
+  <allow-http-request-headers-from domain="cartbatterydepot.com" headers="*" secure="true"/>
+  <allow-http-request-headers-from domain="*.cartbatterydepot.com" headers="*" secure="true"/>
 </cross-domain-policy>

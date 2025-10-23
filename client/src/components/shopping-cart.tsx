@@ -105,8 +105,8 @@ export default function ShoppingCartComponent() {
             <div className="flex-1 flex flex-col items-center justify-center text-center">
               <ShoppingBag className="h-16 w-16 text-gray-300 mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Your cart is empty</h3>
-              <p className="text-gray-500 mb-6">Add some TIGON batteries to get started</p>
-              <Button onClick={closeCart} className="bg-tigon-red text-white hover:bg-blue-700">
+              <p className="text-gray-500 mb-6">Add some batteries to get started</p>
+              <Button onClick={closeCart} className="bg-cart-red text-white hover:bg-blue-700" data-testid="button-continue-shopping">
                 Continue Shopping
               </Button>
             </div>
@@ -115,17 +115,13 @@ export default function ShoppingCartComponent() {
               <div className="flex-1 overflow-y-auto py-4">
                 <div className="space-y-4">
                   {cartItems.map((item) => (
-                    <div key={item.id} className="flex gap-4 p-4 border rounded-lg">
-                      <img
-                        src="/attached_assets/tigon-logo.png"
-                        alt={item.product?.name || "Battery"}
-                        className="w-16 h-16 object-contain rounded"
-                      />
+                    <div key={item.id} className="flex gap-4 p-4 border rounded-lg" data-testid={`cart-item-${item.id}`}>
+                      <Battery className="w-16 h-16 p-2 text-gray-400 bg-gray-50 rounded" />
                       <div className="flex-1">
                         <h4 className="font-semibold text-sm">{item.product?.name}</h4>
                         <p className="text-xs text-gray-500">{item.product?.technology}</p>
                         <div className="flex items-center justify-between mt-2">
-                          <span className="font-bold text-tigon-red">
+                          <span className="font-bold text-cart-red">
                             ${item.product?.price}
                           </span>
                           <div className="flex items-center gap-2">
@@ -169,17 +165,17 @@ export default function ShoppingCartComponent() {
               <div className="border-t pt-4 space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="font-semibold">Total:</span>
-                  <span className="text-2xl font-bold text-tigon-red">${total.toFixed(2)}</span>
+                  <span className="text-2xl font-bold text-cart-red" data-testid="text-cart-total">${total.toFixed(2)}</span>
                 </div>
 
                 <Separator />
 
                 <div className="space-y-2">
-                  <Button className="w-full bg-tigon-orange text-white hover:bg-orange-600">
+                  <Button className="w-full bg-cart-orange text-white hover:bg-orange-600" data-testid="button-request-quote">
                     Request Quote
                   </Button>
                   <a href="tel:1-844-888-7732" className="block">
-                    <Button variant="outline" className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white">
+                    <Button variant="outline" className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white" data-testid="button-call-pricing">
                       <Phone className="h-4 w-4 mr-2" />
                       Call for Pricing: 1-844-888-7732
                     </Button>
@@ -189,13 +185,14 @@ export default function ShoppingCartComponent() {
                     onClick={() => clearCartMutation.mutate()}
                     className="w-full text-red-600 hover:text-red-700 hover:bg-red-50"
                     disabled={clearCartMutation.isPending}
+                    data-testid="button-clear-cart"
                   >
                     Clear Cart
                   </Button>
                 </div>
 
                 <div className="text-xs text-gray-500 text-center">
-                  Call <a href="tel:1-844-888-7732" className="text-tigon-red">1-844-888-7732</a> for 
+                  Call <a href="tel:1-844-888-7732" className="text-cart-red">1-844-888-7732</a> for 
                   bulk pricing and installation services
                 </div>
               </div>

@@ -1,9 +1,9 @@
-# TIGON Batteries - Advertising Authorization File
+# Cart Battery Depot - Advertising Authorization File
 # Authorized digital seller information and advertising network permissions
 # Publisher account verification and revenue sharing transparency
 
 ## ADVERTISING AUTHORIZATION STATEMENT
-TIGON Batteries (tigonbatteries.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
+Cart Battery Depot (cartbatterydepot.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
 
 ## AUTHORIZED ADVERTISING PARTNERS
 
@@ -66,14 +66,14 @@ Revenue from authorized advertising partners supports:
 ## PUBLISHER VERIFICATION
 
 ### Business Information Verification
-Legal Business Name: TIGON Batteries
-Website: tigonbatteries.com
+Legal Business Name: Cart Battery Depot
+Website: cartbatterydepot.com
 Primary Contact: 1-844-888-7732
 Business Classification: Electric Vehicle Battery Retailer
 Primary Market: Golf Cart and Electric Vehicle Batteries
 
 ### Website Verification
-Domain Ownership: Verified tigonbatteries.com
+Domain Ownership: Verified cartbatterydepot.com
 Content Quality: Professional battery education and sales
 Audience Demographics: Golf cart owners, electric vehicle enthusiasts
 Traffic Sources: Organic search, direct traffic, referrals
@@ -106,7 +106,7 @@ All advertisements must be relevant to:
 ## THIRD-PARTY ADVERTISING NETWORKS
 
 ### Authorized Reseller Networks
-Note: The following networks are authorized to resell TIGON Batteries advertising inventory through the primary partners listed above.
+Note: The following networks are authorized to resell Cart Battery Depot advertising inventory through the primary partners listed above.
 
 Industry-specific networks focusing on:
 - Automotive aftermarket advertising
@@ -197,10 +197,10 @@ Customer communication for significant changes
 Industry notification through appropriate channels
 
 ## DISCLAIMER
-This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. TIGON Batteries reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
+This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. Cart Battery Depot reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
 
 Last Updated: August 2024
 Next Review: November 2024
 Policy Version: 1.0
 
-For questions about advertising partnerships or this ads.txt file, contact TIGON Batteries customer service at 1-844-888-7732 during business hours.
+For questions about advertising partnerships or this ads.txt file, contact Cart Battery Depot customer service at 1-844-888-7732 during business hours.

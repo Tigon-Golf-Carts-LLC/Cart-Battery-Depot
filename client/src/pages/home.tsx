@@ -15,8 +15,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function Home() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Power Your Golf Cart with TIGON Batteries Reliability",
-    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON. 96+ professional-grade battery configurations with expert support. Call 1-844-888-7732.",
+    title: "Power Your Golf Cart with Cart Battery Depot Reliability",
+    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from Cart Battery Depot. 96+ professional-grade battery configurations with expert support. Call 1-844-888-7732.",
     ogImage: "/hero-background.jpg",
     ogImageWidth: 1200,
     ogImageHeight: 630
@@ -34,7 +34,7 @@ export default function Home() {
       name: "Golf Cart Batteries",
       slug: "golf-cart",
       description: "Premium Golf Cart Batteries for reliable performance on the course. 6V, 8V & 12V configurations available.",
-      image: "/attached_assets/tigon-logo.png",
+      image: "/favicon.png",
       icon: "🏌️",
       count: 24
     },
@@ -42,7 +42,7 @@ export default function Home() {
       name: "LSV Batteries",
       slug: "lsv",
       description: "Low Speed Vehicle (LSV) Batteries designed for neighborhood transportation and utility applications.",
-      image: "/attached_assets/tigon-logo.png",
+      image: "/favicon.png",
       icon: "🚗",
       count: 24
     },
@@ -50,7 +50,7 @@ export default function Home() {
       name: "NEV Batteries",
       slug: "nev",
       description: "Neighborhood Electric Vehicle (NEV) Batteries meeting DOT regulations for street-legal operation.",
-      image: "/attached_assets/tigon-logo.png",
+      image: "/favicon.png",
       icon: "🏠",
       count: 24
     },
@@ -58,7 +58,7 @@ export default function Home() {
       name: "MSV Batteries",
       slug: "msv",
       description: "Medium Speed Vehicle (MSV) Batteries for enhanced performance and extended range applications.",
-      image: "/attached_assets/tigon-logo.png",
+      image: "/favicon.png",
       icon: "⚡",
       count: 24
     }
@@ -69,58 +69,58 @@ export default function Home() {
       icon: Settings,
       title: "96+ Battery Configurations",
       description: "Complete lineup covering every voltage, capacity and technology combination for Golf Cart Batteries and electric vehicles.",
-      color: "tigon-red"
+      color: "cart-red"
     },
     {
       icon: Phone,
       title: "Expert Phone Support",
-      description: "Talk directly to TIGON battery specialists. Get personalized advice for your specific Golf Cart or electric vehicle needs.",
-      color: "tigon-green"
+      description: "Talk directly to Cart Battery Depot battery specialists. Get personalized advice for your specific Golf Cart or electric vehicle needs.",
+      color: "cart-green"
     },
     {
       icon: Truck,
       title: "Fast Nationwide Shipping",
-      description: "Quick delivery of TIGON Batteries across the country. Get your Golf Cart back on the course faster.",
-      color: "tigon-orange"
+      description: "Quick delivery of Cart Battery Depot across the country. Get your Golf Cart back on the course faster.",
+      color: "cart-orange"
     },
     {
       icon: Shield,
       title: "Industry-Leading Warranty",
-      description: "Comprehensive warranty coverage on all TIGON Golf Cart Batteries and electric vehicle battery solutions.",
-      color: "tigon-red"
+      description: "Comprehensive warranty coverage on all Cart Battery Depot Golf Cart Batteries and electric vehicle battery solutions.",
+      color: "cart-red"
     },
     {
       icon: GraduationCap,
       title: "Educational Resources",
-      description: "Comprehensive guides on Golf Cart Batteries, voltage systems, maintenance and installation from TIGON experts.",
-      color: "tigon-green"
+      description: "Comprehensive guides on Golf Cart Batteries, voltage systems, maintenance and installation from Cart Battery Depot experts.",
+      color: "cart-green"
     },
     {
       icon: Wrench,
       title: "Professional Installation",
-      description: "Expert installation services and detailed guides ensure optimal performance of your TIGON battery system.",
-      color: "tigon-orange"
+      description: "Expert installation services and detailed guides ensure optimal performance of your Cart Battery Depot battery system.",
+      color: "cart-orange"
     }
   ];
 
   const testimonials = [
     {
       rating: 5,
-      text: "TIGON Batteries transformed my golf cart performance! The 6V-225 Golf Cart Batteries have been running strong for 3 years. Excellent customer support when I called 1-844-888-7732.",
+      text: "Cart Battery Depot transformed my golf cart performance! The 6V-225 Golf Cart Batteries have been running strong for 3 years. Excellent customer support when I called 1-844-888-7732.",
       author: "John Smith",
       title: "Golf Course Manager, Texas",
       initials: "JS"
     },
     {
       rating: 5,
-      text: "Outstanding LSV Batteries from TIGON! Perfect for our neighborhood electric vehicles. The phone support at 1-844-888-7732 helped us choose exactly what we needed.",
+      text: "Outstanding LSV Batteries from Cart Battery Depot! Perfect for our neighborhood electric vehicles. The phone support at 1-844-888-7732 helped us choose exactly what we needed.",
       author: "Maria Rodriguez",
       title: "Fleet Manager, California",
       initials: "MR"
     },
     {
       rating: 5,
-      text: "TIGON's lithium Golf Cart Batteries are incredible! Extended range and fast charging. The expert advice I received when calling 1-844-888-7732 was invaluable.",
+      text: "Cart Battery Depot's lithium Golf Cart Batteries are incredible! Extended range and fast charging. The expert advice I received when calling 1-844-888-7732 was invaluable.",
       author: "Bob Kim",
       title: "Golf Enthusiast, Florida",
       initials: "BK"
@@ -130,24 +130,24 @@ export default function Home() {
   const educationalContent = [
     {
       title: "Complete Golf Cart Battery Guide 2025",
-      description: "Everything you need to know about Golf Cart Batteries: voltage configurations, TIGON Batteries options, maintenance tips and installation.",
+      description: "Everything you need to know about Golf Cart Batteries: voltage configurations, Cart Battery Depot options, maintenance tips and installation.",
       readTime: "5 min read",
       category: "GUIDE",
-      image: "/attached_assets/tigon-logo.png"
+      image: "/favicon.png"
     },
     {
       title: "Understanding Battery Technologies",
-      description: "Compare Flooded Lead-Acid, AGM, Gel and Lithium technologies. TIGON Batteries explains pros, cons and best applications.",
+      description: "Compare Flooded Lead-Acid, AGM, Gel and Lithium technologies. Cart Battery Depot explains pros, cons and best applications.",
       readTime: "8 min read",
       category: "TECHNICAL",
-      image: "/attached_assets/tigon-logo.png"
+      image: "/favicon.png"
     },
     {
       title: "Vehicle-Specific Battery Requirements",
-      description: "Learn the power needs for Golf Carts, LSV, NEV & MSV applications. TIGON Batteries selection guide for each vehicle type.",
+      description: "Learn the power needs for Golf Carts, LSV, NEV & MSV applications. Cart Battery Depot selection guide for each vehicle type.",
       readTime: "6 min read",
       category: "VEHICLES",
-      image: "/attached_assets/tigon-logo.png"
+      image: "/favicon.png"
     }
   ];
 
@@ -162,19 +162,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              TIGON Batteries for Every Electric Vehicle
+              Cart Battery Depot for Every Electric Vehicle
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From Golf Cart Batteries to specialized LSV, NEV & MSV solutions, TIGON Batteries offers the complete lineup for all your electric vehicle needs.
+              From Golf Cart Batteries to specialized LSV, NEV & MSV solutions, Cart Battery Depot offers the complete lineup for all your electric vehicle needs.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {categories.map((category) => (
-              <Card key={category.slug} className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
+              <Card key={category.slug} className="card-hover overflow-hidden border-2 border-transparent hover:border-cart-red">
                 <img 
                   src={category.image}
-                  alt={`${category.name} by TIGON`}
+                  alt={`${category.name} by Cart Battery Depot`}
                   className="w-full h-48 object-contain bg-gray-50" 
                 />
                 <CardContent className="p-6">
@@ -185,11 +185,11 @@ export default function Home() {
                   <p className="text-gray-600 mb-4">{category.description}</p>
                   <div className="flex justify-between items-center">
                     <Link href={`/products/${category.slug}`}>
-                      <span className="text-tigon-red font-semibold hover:underline cursor-pointer">
+                      <span className="text-cart-red font-semibold hover:underline cursor-pointer">
                         View All {category.name} →
                       </span>
                     </Link>
-                    <Badge className="bg-tigon-green text-white">
+                    <Badge className="bg-cart-green text-white">
                       {category.count} Models
                     </Badge>
                   </div>
@@ -200,9 +200,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Need Help Choosing? Call TIGON Battery Experts: 1-844-888-7732
+                Need Help Choosing? Call Cart Battery Depot Battery Experts: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Find Your Perfect TIGON Battery Match
+              Find Your Perfect Cart Battery Depot Battery Match
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our Battery Selector Quiz helps you choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations.
@@ -225,15 +225,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose TIGON Section */}
+      {/* Why Choose Cart Battery Depot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Golf Cart Owners Choose TIGON Batteries
+              Why Golf Cart Owners Choose Cart Battery Depot
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Over 10,000 customers trust TIGON Batteries for reliable Golf Cart, LSV, NEV & MSV power solutions. Here's why we're the industry leader.
+              Over 10,000 customers trust Cart Battery Depot for reliable Golf Cart, LSV, NEV & MSV power solutions. Here's why we're the industry leader.
             </p>
           </div>
 
@@ -254,9 +254,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-red text-white px-8 py-4 text-lg hover:bg-blue-700">
+              <Button size="lg" className="bg-cart-red text-white px-8 py-4 text-lg hover:bg-blue-700">
                 <Phone className="h-5 w-5 mr-2" />
-                Experience TIGON Excellence: Call 1-844-888-7732
+                Experience Cart Battery Depot Excellence: Call 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -268,7 +268,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Popular TIGON Battery Solutions
+              Popular Cart Battery Depot Battery Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Top-selling Golf Cart Batteries and electric vehicle solutions trusted by thousands of customers nationwide.
@@ -287,13 +287,13 @@ export default function Home() {
 
           <div className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/products">
-              <Button size="lg" className="bg-tigon-red text-white px-8 py-4 text-lg hover:bg-blue-700">
+              <Button size="lg" className="bg-cart-red text-white px-8 py-4 text-lg hover:bg-blue-700">
                 <Settings className="h-5 w-5 mr-2" />
                 View All 96+ Battery Models
               </Button>
             </Link>
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
                 Questions? Call 1-844-888-7732
               </Button>
@@ -307,10 +307,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              TIGON Batteries Educational Resources
+              Cart Battery Depot Educational Resources
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Learn everything about Golf Cart Batteries, electric vehicle power systems, and battery maintenance from TIGON Batteries experts.
+              Learn everything about Golf Cart Batteries, electric vehicle power systems, and battery maintenance from Cart Battery Depot experts.
             </p>
           </div>
 
@@ -326,9 +326,9 @@ export default function Home() {
                   <div className="flex items-center mb-3">
                     <Badge 
                       className={`text-white mr-2 ${
-                        article.category === 'GUIDE' ? 'bg-tigon-green' :
-                        article.category === 'TECHNICAL' ? 'bg-tigon-red' :
-                        'bg-tigon-orange'
+                        article.category === 'GUIDE' ? 'bg-cart-green' :
+                        article.category === 'TECHNICAL' ? 'bg-cart-red' :
+                        'bg-cart-orange'
                       }`}
                     >
                       {article.category}
@@ -338,7 +338,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
                   <p className="text-gray-600 mb-4">{article.description}</p>
                   <Link href="/battery-guide">
-                    <span className="text-tigon-red font-semibold hover:underline flex items-center cursor-pointer">
+                    <span className="text-cart-red font-semibold hover:underline flex items-center cursor-pointer">
                       Read Guide <span className="ml-2">→</span>
                     </span>
                   </Link>
@@ -349,9 +349,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Still Have Questions? Call TIGON Experts: 1-844-888-7732
+                Still Have Questions? Call Cart Battery Depot Experts: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -363,10 +363,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              What Customers Say About TIGON Batteries
+              What Customers Say About Cart Battery Depot
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Over 10,000 satisfied customers trust TIGON Batteries for their Golf Cart, LSV, NEV & MSV battery needs.
+              Over 10,000 satisfied customers trust Cart Battery Depot for their Golf Cart, LSV, NEV & MSV battery needs.
             </p>
           </div>
 
@@ -386,7 +386,7 @@ export default function Home() {
                     "{testimonial.text}"
                   </blockquote>
                   <div className="flex items-center">
-                    <div className="w-12 h-12 bg-tigon-red rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                    <div className="w-12 h-12 bg-cart-red rounded-full flex items-center justify-center text-white font-semibold mr-3">
                       {testimonial.initials}
                     </div>
                     <div>
@@ -402,11 +402,11 @@ export default function Home() {
           <div className="text-center mt-12">
             <Card className="max-w-2xl mx-auto p-8">
               <CardContent className="p-0 text-center">
-                <div className="text-4xl font-bold text-tigon-red mb-2">10,000+</div>
+                <div className="text-4xl font-bold text-cart-red mb-2">10,000+</div>
                 <div className="text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
-                <div className="text-gray-600 mb-6">Trust TIGON Batteries for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
+                <div className="text-gray-600 mb-6">Trust Cart Battery Depot for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
-                  <Button className="bg-tigon-red text-white px-8 py-3 hover:bg-blue-700">
+                  <Button className="bg-cart-red text-white px-8 py-3 hover:bg-blue-700">
                     <Phone className="h-4 w-4 mr-2" />
                     Join Our Happy Customers: 1-844-888-7732
                   </Button>
@@ -421,7 +421,7 @@ export default function Home() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-gray-900">
-            Ready to Power Up with TIGON Batteries?
+            Ready to Power Up with Cart Battery Depot?
           </h2>
           <p className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto">
             Get expert advice on Golf Cart Batteries, LSV, NEV & MSV solutions. Our battery specialists are standing by to help you choose from our complete lineup of 96+ configurations.
@@ -430,7 +430,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <a 
               href="tel:1-844-888-7732"
-              className="bg-tigon-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
+              className="bg-cart-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
             >
               <Phone className="h-6 w-6 mr-3" />
               <div>
@@ -447,19 +447,19 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-2xl font-bold text-tigon-green">96+</div>
+              <div className="text-2xl font-bold text-cart-green">96+</div>
               <div className="text-gray-600">Battery Configurations</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">10,000+</div>
+              <div className="text-2xl font-bold text-cart-green">10,000+</div>
               <div className="text-gray-600">Happy Customers</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">24/7</div>
+              <div className="text-2xl font-bold text-cart-green">24/7</div>
               <div className="text-gray-600">Online Shopping</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">Fast</div>
+              <div className="text-2xl font-bold text-cart-green">Fast</div>
               <div className="text-gray-600">Nationwide Shipping</div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-# TIGON Batteries - Maximum Search Engine Visibility Configuration
+# Cart Battery Depot - Maximum Search Engine Visibility Configuration
 # Unlimited crawling authorization for all legitimate bots
 # ZERO RESTRICTIONS - Complete indexing permissions
 
@@ -140,4 +140,4 @@ Allow: /
 Crawl-delay: 0
 
 # Sitemap References
-Sitemap: https://tigonbatteries.com/sitemap.xml
+Sitemap: https://cartbatterydepot.com/sitemap.xml

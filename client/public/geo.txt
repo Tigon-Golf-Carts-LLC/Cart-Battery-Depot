@@ -1,17 +1,17 @@
-# TIGON Batteries - Geographic SEO Information
+# Cart Battery Depot - Geographic SEO Information
 # Complete location data and regional market information
 # Local SEO optimization and service area documentation
 
 ## PRIMARY BUSINESS LOCATION
-Business Name: TIGON Batteries
+Business Name: Cart Battery Depot
 Service Type: Electric Vehicle Battery Specialist
 Primary Focus: Golf Cart Batteries, LSV, NEV, MSV Solutions
 Phone: 1-844-888-7732
 Service Hours: Monday - Saturday, 8AM - 5PM EST
-Website: tigonbatteries.com
+Website: cartbatterydepot.com
 
 ## NATIONWIDE SERVICE AREA
-TIGON Batteries provides nationwide coverage across all 50 United States with fast shipping and expert support.
+Cart Battery Depot provides nationwide coverage across all 50 United States with fast shipping and expert support.
 
 ### Regional Coverage Areas
 
@@ -131,7 +131,7 @@ LSV/NEV Applications by State:
 Primary: "[State] golf cart batteries"
 Secondary: "golf cart battery [state]"
 Local: "[state] electric vehicle batteries"
-Specific: "TIGON batteries [state]"
+Specific: "Cart Battery Depot batteries [state]"
 
 Example State Variations:
 - "Florida golf cart batteries"
@@ -221,7 +221,7 @@ Market Leaders by Area:
 - Local independent dealers and service providers
 - Golf course preferred vendor relationships
 
-TIGON Competitive Advantages:
+Cart Battery Depot Competitive Advantages:
 - Nationwide consistent service and support
 - Expert phone consultation regardless of location
 - Comprehensive product line for all applications

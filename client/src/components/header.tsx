@@ -22,14 +22,15 @@ export default function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-tigon-red text-white py-2">
+      <div className="bg-cart-red text-white py-2" data-testid="header-topbar">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center text-sm">
             <span className="hidden sm:inline mr-2">Expert Battery Support:</span>
             <Phone className="h-4 w-4 mr-2" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-tigon-green transition-colors"
+              className="font-semibold hover:text-cart-green transition-colors"
+              data-testid="link-phone-topbar"
             >
               1-844-888-7732
             </a>
@@ -43,14 +44,10 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link href="/">
-              <div className="flex items-center cursor-pointer">
-                <img 
-                  src="/attached_assets/tigon-logo.png" 
-                  alt="TIGON Batteries Logo" 
-                  className="h-16 w-auto mr-3"
-                />
-                <div className="text-2xl font-bold text-tigon-red">
-                  TIGON <span className="text-tigon-green">Batteries</span>
+              <div className="flex items-center cursor-pointer" data-testid="link-home-logo">
+                <Battery className="h-16 w-16 text-cart-red mr-3" />
+                <div className="text-2xl font-bold text-cart-red">
+                  Cart Battery <span className="text-cart-green">Depot</span>
                 </div>
               </div>
             </Link>
@@ -59,9 +56,9 @@ export default function Header() {
             <nav className="hidden md:flex space-x-8">
               {navigation.map((item) => (
                 <Link key={item.name} href={item.href}>
-                  <span className={`text-gray-700 hover:text-tigon-red font-medium transition-colors cursor-pointer ${
-                    location === item.href ? "text-tigon-red" : ""
-                  }`}>
+                  <span className={`text-gray-700 hover:text-cart-red font-medium transition-colors cursor-pointer ${
+                    location === item.href ? "text-cart-red" : ""
+                  }`} data-testid={`link-nav-${item.name.toLowerCase().replace(' ', '-')}`}>
                     {item.name}
                   </span>
                 </Link>
@@ -72,7 +69,8 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-tigon-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
+                className="hidden sm:flex bg-cart-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
+                data-testid="link-phone-header"
               >
                 <Phone className="h-4 w-4 mr-2" />
                 1-844-888-7732
@@ -81,11 +79,12 @@ export default function Header() {
               <Button
                 variant="ghost"
                 onClick={openCart}
-                className="relative p-2 text-gray-600 hover:text-tigon-red"
+                className="relative p-2 text-gray-600 hover:text-cart-red"
+                data-testid="button-cart-toggle"
               >
                 <ShoppingCart className="h-6 w-6" />
                 {itemCount > 0 && (
-                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-tigon-orange">
+                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-cart-orange" data-testid="text-cart-count">
                     {itemCount}
                   </Badge>
                 )}
@@ -103,8 +102,9 @@ export default function Header() {
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
                         <span 
-                          className="block px-3 py-2 text-lg font-medium text-gray-700 hover:text-tigon-red cursor-pointer"
+                          className="block px-3 py-2 text-lg font-medium text-gray-700 hover:text-cart-red cursor-pointer"
                           onClick={() => setIsMobileMenuOpen(false)}
+                          data-testid={`link-mobile-${item.name.toLowerCase().replace(' ', '-')}`}
                         >
                           {item.name}
                         </span>
@@ -113,7 +113,8 @@ export default function Header() {
                     <div className="border-t pt-4">
                       <a 
                         href="tel:1-844-888-7732" 
-                        className="flex items-center justify-center bg-tigon-green text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-cart-green text-white px-4 py-3 rounded-lg font-semibold"
+                        data-testid="link-phone-mobile"
                       >
                         <Phone className="h-4 w-4 mr-2" />
                         Call Expert: 1-844-888-7732

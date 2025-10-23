@@ -98,17 +98,17 @@ export class MemStorage implements IStorage {
     voltageSeriesConfig.forEach(voltageSeries => {
       categories.forEach(category => {
         technologies.forEach(technology => {
-          const productId = `tigon-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
+          const productId = `cart-battery-depot-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
           const price = technology.callForPricing ? "Call for Pricing" : (Math.round(voltageSeries.basePrice * technology.priceMultiplier * 100) / 100).toString();
           
           const product: Product = {
             id: productId,
-            name: `TIGON ${voltageSeries.series} ${category.description}`,
+            name: `Cart Battery Depot ${voltageSeries.series} ${category.description}`,
             series: voltageSeries.series,
             category: category.description,
             technology: technology.name,
-            seoTitle: `TIGON ${voltageSeries.series} ${category.description} - ${technology.description}`,
-            metaDescription: `TIGON Batteries ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Professional ${category.description} for reliable performance. Call 1-844-888-7732`,
+            seoTitle: `Cart Battery Depot ${voltageSeries.series} ${category.description} - ${technology.description}`,
+            metaDescription: `Cart Battery Depot ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Professional ${category.description} for reliable performance. Call 1-844-888-7732`,
             specifications: {
               voltage: voltageSeries.voltage,
               ampHours: voltageSeries.ampHours,
@@ -132,16 +132,16 @@ export class MemStorage implements IStorage {
               : ["Medium Speed Vehicles", "Enhanced Performance", "Extended Range"],
             features: [
               `Deep-cycle design for ${category.description}`,
-              `${technology.description} TIGON Batteries standard`,
+              `${technology.description} Cart Battery Depot standard`,
               `Professional ${category.description} solution`,
-              `Proven TIGON Batteries reliability`
+              `Proven Cart Battery Depot reliability`
             ],
             price: price,
             inStock: true,
-            images: [`tigon-${category.slug}-battery-1.jpg`, `tigon-${category.slug}-battery-2.jpg`],
+            images: [`cart-battery-depot-${category.slug}-battery-1.jpg`, `cart-battery-depot-${category.slug}-battery-2.jpg`],
             relatedProducts: [],
-            focusKeywords: ["TIGON Batteries", category.description, `${voltageSeries.series} ${category.description}`],
-            altText: `TIGON ${voltageSeries.series} ${category.description} - ${technology.description} by TIGON Batteries`,
+            focusKeywords: ["Cart Battery Depot", category.description, `${voltageSeries.series} ${category.description}`],
+            altText: `Cart Battery Depot ${voltageSeries.series} ${category.description} - ${technology.description} by Cart Battery Depot`,
             createdAt: new Date()
           };
 
@@ -153,13 +153,13 @@ export class MemStorage implements IStorage {
     // Add additional services and products
     const additionalProducts: Product[] = [
       {
-        id: "tigon-battery-installation",
+        id: "cart-battery-depot-battery-installation",
         name: "Professional Battery Installation Service",
         series: "Installation",
         category: "Services",
         technology: "Professional Service",
-        seoTitle: "TIGON Battery Installation Service - Expert Professional Installation",
-        metaDescription: "Professional battery installation service by TIGON Batteries experts. Safe, reliable installation for all battery types. Call 1-844-888-7732",
+        seoTitle: "Cart Battery Depot Battery Installation Service - Expert Professional Installation",
+        metaDescription: "Professional battery installation service by Cart Battery Depot experts. Safe, reliable installation for all battery types. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -172,27 +172,27 @@ export class MemStorage implements IStorage {
         systemCompatibility: ["All Systems"],
         applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
         features: [
-          "Professional installation by TIGON certified technicians",
+          "Professional installation by Cart Battery Depot certified technicians",
           "Proper battery placement and securing",
           "Electrical connection verification", 
           "System testing and validation"
         ],
         price: "200.00",
         inStock: true,
-        images: ["tigon-installation-service.jpg"],
+        images: ["cart-battery-depot-installation-service.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Battery Installation", "Professional Installation", "Battery Service"],
-        altText: "TIGON Professional Battery Installation Service",
+        focusKeywords: ["Cart Battery Depot Battery Installation", "Professional Installation", "Battery Service"],
+        altText: "Cart Battery Depot Professional Battery Installation Service",
         createdAt: new Date()
       },
       {
-        id: "tigon-6v-8v-core-charge",
+        id: "cart-battery-depot-6v-8v-core-charge",
         name: "6V/8V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "TIGON 6V 8V Battery Core Charge - Recycling Fee",
-        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
+        seoTitle: "Cart Battery Depot 6V 8V Battery Core Charge - Recycling Fee",
+        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by Cart Battery Depot. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -208,24 +208,24 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "TIGON eco-friendly initiative"
+          "Cart Battery Depot eco-friendly initiative"
         ],
         price: "29.00",
         inStock: true,
-        images: ["tigon-core-charge.jpg"],
+        images: ["cart-battery-depot-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "6V 8V Core"],
-        altText: "TIGON 6V 8V Battery Core Charge",
+        focusKeywords: ["Cart Battery Depot Core Charge", "Battery Recycling", "6V 8V Core"],
+        altText: "Cart Battery Depot 6V 8V Battery Core Charge",
         createdAt: new Date()
       },
       {
-        id: "tigon-12v-core-charge",
+        id: "cart-battery-depot-12v-core-charge",
         name: "12V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "TIGON 12V Battery Core Charge - Recycling Fee",
-        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
+        seoTitle: "Cart Battery Depot 12V Battery Core Charge - Recycling Fee",
+        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by Cart Battery Depot. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -241,24 +241,24 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "TIGON eco-friendly initiative"
+          "Cart Battery Depot eco-friendly initiative"
         ],
         price: "57.00",
         inStock: true,
-        images: ["tigon-core-charge.jpg"],
+        images: ["cart-battery-depot-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "12V Core"],
-        altText: "TIGON 12V Battery Core Charge",
+        focusKeywords: ["Cart Battery Depot Core Charge", "Battery Recycling", "12V Core"],
+        altText: "Cart Battery Depot 12V Battery Core Charge",
         createdAt: new Date()
       },
       {
-        id: "tigon-battery-cable",
-        name: "TIGON Battery Cable",
+        id: "cart-battery-depot-battery-cable",
+        name: "Cart Battery Depot Battery Cable",
         series: "Accessories",
         category: "Cables & Accessories",
         technology: "Heavy-Duty Cable",
-        seoTitle: "TIGON Battery Cable - Professional Grade Connection Cable",
-        metaDescription: "Professional grade battery cables by TIGON Batteries. Reliable connections for all battery systems. $10 per cable. Call 1-844-888-7732",
+        seoTitle: "Cart Battery Depot Battery Cable - Professional Grade Connection Cable",
+        metaDescription: "Professional grade battery cables by Cart Battery Depot. Reliable connections for all battery systems. $10 per cable. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -274,14 +274,14 @@ export class MemStorage implements IStorage {
           "Professional grade construction",
           "Corrosion-resistant terminals",
           "Flexible heavy-duty cable",
-          "TIGON quality standard"
+          "Cart Battery Depot quality standard"
         ],
         price: "10.00",
         inStock: true,
-        images: ["tigon-battery-cable.jpg"],
+        images: ["cart-battery-depot-battery-cable.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Battery Cable", "Battery Connections", "Professional Cable"],
-        altText: "TIGON Professional Battery Cable",
+        focusKeywords: ["Cart Battery Depot Battery Cable", "Battery Connections", "Professional Cable"],
+        altText: "Cart Battery Depot Professional Battery Cable",
         createdAt: new Date()
       }
     ];

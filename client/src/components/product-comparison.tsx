@@ -17,7 +17,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
     return (
       <Card className="p-12 text-center">
         <h3 className="text-lg font-semibold text-gray-900 mb-2">No Products to Compare</h3>
-        <p className="text-gray-600">Add products to start comparing TIGON battery specifications.</p>
+        <p className="text-gray-600">Add products to start comparing battery specifications.</p>
       </Card>
     );
   }
@@ -47,23 +47,19 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
             </Button>
             
             <CardContent className="p-4">
-              <img 
-                src="/attached_assets/tigon-logo.png"
-                alt={product.altText}
-                className="w-full h-32 object-contain rounded mb-3 bg-gray-50"
-              />
+              <Battery className="w-full h-32 p-4 text-gray-400 rounded mb-3 bg-gray-50" />
               
               <h4 className="font-semibold text-sm mb-2">{product.name}</h4>
               <Badge variant="outline" className="mb-2">{product.technology}</Badge>
               
-              <div className="text-lg font-bold text-tigon-red mb-3">
+              <div className="text-lg font-bold text-cart-red mb-3">
                 {formatPrice(product.price)}
               </div>
               
               <div className="space-y-2">
                 <Button 
                   size="sm" 
-                  className="w-full bg-tigon-orange text-white hover:bg-orange-600"
+                  className="w-full bg-cart-orange text-white hover:bg-orange-600"
                   onClick={() => onAddToCart(product.id)}
                 >
                   <ShoppingCart className="h-3 w-3 mr-1" />
@@ -73,7 +69,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <Button 
                     size="sm" 
                     variant="outline" 
-                    className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white"
+                    className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white"
                   >
                     <Phone className="h-3 w-3 mr-1" />
                     Call Expert
@@ -109,7 +105,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <TableCell className="font-medium">Price</TableCell>
                   {products.map((product) => (
                     <TableCell key={product.id} className="text-center">
-                      <span className="font-bold text-tigon-red">{formatPrice(product.price)}</span>
+                      <span className="font-bold text-cart-red">{formatPrice(product.price)}</span>
                     </TableCell>
                   ))}
                 </TableRow>
@@ -182,7 +178,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   {products.map((product) => (
                     <TableCell key={product.id} className="text-center">
                       {product.inStock ? (
-                        <Badge className="bg-tigon-green text-white">
+                        <Badge className="bg-cart-green text-white">
                           <CheckCircle className="h-3 w-3 mr-1" />
                           In Stock
                         </Badge>
@@ -216,7 +212,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="space-y-1">
                     {product.features.map((feature, index) => (
                       <li key={index} className="flex items-start text-xs">
-                        <CheckCircle className="h-3 w-3 text-tigon-green mr-2 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="h-3 w-3 text-cart-green mr-2 mt-0.5 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -243,7 +239,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.systemCompatibility.map((config, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-tigon-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-cart-green mr-2" />
                         {config}
                       </li>
                     ))}
@@ -254,7 +250,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.applications.map((app, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-tigon-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-cart-green mr-2" />
                         {app}
                       </li>
                     ))}
@@ -267,10 +263,10 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
       </Card>
 
       {/* Action Section */}
-      <Card className="bg-tigon-red text-white">
+      <Card className="bg-cart-red text-white">
         <CardContent className="p-6 text-center">
           <h3 className="text-xl font-bold mb-4">
-            Need Help Choosing Between These TIGON Batteries?
+            Need Help Choosing Between These Cart Battery Depot?
           </h3>
           <p className="mb-6 text-blue-100">
             Our battery experts can help you select the best option based on your specific 
@@ -278,12 +274,12 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+              <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Call TIGON Experts: 1-844-888-7732
+                Call Battery Experts: 1-844-888-7732
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100">
+            <Button size="lg" variant="outline" className="bg-white text-cart-red hover:bg-gray-100">
               <ShoppingCart className="h-5 w-5 mr-2" />
               Add All to Cart
             </Button>

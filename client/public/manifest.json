@@ -1,6 +1,6 @@
 {
-  "name": "TIGON Batteries - Electric Vehicle Battery Solutions",
-  "short_name": "TIGON Batteries",
+  "name": "Cart Battery Depot - Electric Vehicle Battery Solutions",
+  "short_name": "Cart Battery Depot",
   "description": "Professional electric vehicle battery solutions for Golf Cart, LSV, NEV, and MSV applications. 96+ battery configurations with expert support.",
   "start_url": "/",
   "scope": "/",
@@ -13,37 +13,37 @@
   "dir": "ltr",
   "icons": [
     {
-      "src": "/tigon-logo.png",
+      "src": "/favicon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/tigon-logo.png", 
+      "src": "/favicon.png", 
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/tigon-logo.png",
+      "src": "/favicon.png",
       "sizes": "144x144", 
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/tigon-logo.png",
+      "src": "/favicon.png",
       "sizes": "96x96",
       "type": "image/png", 
       "purpose": "any"
     },
     {
-      "src": "/tigon-logo.png",
+      "src": "/favicon.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/tigon-logo.png",
+      "src": "/favicon.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "any"
@@ -55,14 +55,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "platform": "wide",
-      "label": "TIGON Batteries desktop experience showing product catalog and battery selector"
+      "label": "Cart Battery Depot desktop experience showing product catalog and battery selector"
     },
     {
       "src": "/screenshot-mobile.png", 
       "sizes": "390x844",
       "type": "image/png",
       "platform": "narrow",
-      "label": "TIGON Batteries mobile experience optimized for on-the-go battery shopping"
+      "label": "Cart Battery Depot mobile experience optimized for on-the-go battery shopping"
     }
   ],
   "shortcuts": [
@@ -73,7 +73,7 @@
       "url": "/products",
       "icons": [
         {
-          "src": "/tigon-logo.png",
+          "src": "/favicon.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -86,7 +86,7 @@
       "url": "/battery-selector",
       "icons": [
         {
-          "src": "/tigon-logo.png",
+          "src": "/favicon.png",
           "sizes": "96x96", 
           "type": "image/png"
         }
@@ -99,7 +99,7 @@
       "url": "tel:1-844-888-7732",
       "icons": [
         {
-          "src": "/tigon-logo.png",
+          "src": "/favicon.png",
           "sizes": "96x96",
           "type": "image/png" 
         }
@@ -112,7 +112,7 @@
       "url": "/battery-guide",
       "icons": [
         {
-          "src": "/tigon-logo.png",
+          "src": "/favicon.png",
           "sizes": "96x96",
           "type": "image/png"
         }

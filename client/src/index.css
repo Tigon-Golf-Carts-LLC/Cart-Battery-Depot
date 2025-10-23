@@ -52,11 +52,11 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* TIGON Brand Colors - Main color is RED #af1f31 */
-  --tigon-red: hsl(351, 70%, 40%);
-  --tigon-blue: hsl(218, 80%, 40%);
-  --tigon-green: hsl(157, 69%, 38%);
-  --tigon-orange: hsl(38, 95%, 48%);
+  /* Cart Battery Depot Brand Colors - Main color is RED #af1f31 */
+  --cart-red: hsl(351, 70%, 40%);
+  --cart-blue: hsl(218, 80%, 40%);
+  --cart-green: hsl(157, 69%, 38%);
+  --cart-orange: hsl(38, 95%, 48%);
 }
 
 .dark {
@@ -116,13 +116,13 @@
   }
 }
 
-/* Custom TIGON Styles */
+/* Custom Cart Battery Depot Styles */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--tigon-blue) 0%, #3b82f6 50%, var(--tigon-green) 100%);
+  background: linear-gradient(135deg, var(--cart-blue) 0%, #3b82f6 50%, var(--cart-green) 100%);
 }
 
 .battery-selector-active {
-  background: linear-gradient(135deg, var(--tigon-blue) 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, var(--cart-blue) 0%, #3b82f6 100%);
   color: white;
 }
 
@@ -135,62 +135,82 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.text-tigon-blue {
-  color: var(--tigon-blue);
+.text-cart-blue {
+  color: var(--cart-blue);
 }
 
-.text-tigon-green {
-  color: var(--tigon-green);
+.text-cart-green {
+  color: var(--cart-green);
 }
 
-.text-tigon-orange {
-  color: var(--tigon-orange);
+.text-cart-orange {
+  color: var(--cart-orange);
 }
 
-.bg-tigon-blue {
-  background-color: var(--tigon-blue);
+.text-cart-red {
+  color: var(--cart-red);
 }
 
-.bg-tigon-green {
-  background-color: var(--tigon-green);
+.bg-cart-blue {
+  background-color: var(--cart-blue);
 }
 
-.bg-tigon-orange {
-  background-color: var(--tigon-orange);
+.bg-cart-green {
+  background-color: var(--cart-green);
 }
 
-.border-tigon-blue {
-  border-color: var(--tigon-blue);
+.bg-cart-orange {
+  background-color: var(--cart-orange);
 }
 
-.border-tigon-green {
-  border-color: var(--tigon-green);
+.bg-cart-red {
+  background-color: var(--cart-red);
 }
 
-.border-tigon-orange {
-  border-color: var(--tigon-orange);
+.border-cart-blue {
+  border-color: var(--cart-blue);
 }
 
-.hover\:bg-tigon-blue:hover {
-  background-color: var(--tigon-blue);
+.border-cart-green {
+  border-color: var(--cart-green);
 }
 
-.hover\:bg-tigon-green:hover {
-  background-color: var(--tigon-green);
+.border-cart-orange {
+  border-color: var(--cart-orange);
 }
 
-.hover\:bg-tigon-orange:hover {
-  background-color: var(--tigon-orange);
+.border-cart-red {
+  border-color: var(--cart-red);
 }
 
-.hover\:text-tigon-blue:hover {
-  color: var(--tigon-blue);
+.hover\:bg-cart-blue:hover {
+  background-color: var(--cart-blue);
 }
 
-.hover\:text-tigon-green:hover {
-  color: var(--tigon-green);
+.hover\:bg-cart-green:hover {
+  background-color: var(--cart-green);
 }
 
-.hover\:text-tigon-orange:hover {
-  color: var(--tigon-orange);
+.hover\:bg-cart-orange:hover {
+  background-color: var(--cart-orange);
+}
+
+.hover\:bg-cart-red:hover {
+  background-color: var(--cart-red);
+}
+
+.hover\:text-cart-blue:hover {
+  color: var(--cart-blue);
+}
+
+.hover\:text-cart-green:hover {
+  color: var(--cart-green);
+}
+
+.hover\:text-cart-orange:hover {
+  color: var(--cart-orange);
+}
+
+.hover\:text-cart-red:hover {
+  color: var(--cart-red);
 }

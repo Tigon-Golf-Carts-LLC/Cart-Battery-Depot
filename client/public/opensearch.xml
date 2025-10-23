@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>TIGON Batteries</ShortName>
-  <Description>Search TIGON Batteries for electric vehicle battery solutions - Golf Cart, LSV, NEV, MSV batteries</Description>
+  <ShortName>Cart Battery Depot</ShortName>
+  <Description>Search Cart Battery Depot for electric vehicle battery solutions - Golf Cart, LSV, NEV, MSV batteries</Description>
   <Tags>batteries golf cart electric vehicle LSV NEV MSV</Tags>
   <Contact>1-844-888-7732</Contact>
-  <Url type="text/html" template="https://tigonbatteries.com/search?q={searchTerms}"/>
-  <Url type="application/x-suggestions+json" template="https://tigonbatteries.com/api/search/suggestions?q={searchTerms}"/>
-  <Image height="16" width="16" type="image/x-icon">https://tigonbatteries.com/favicon.ico</Image>
-  <Image height="64" width="64" type="image/png">https://tigonbatteries.com/tigon-logo.png</Image>
+  <Url type="text/html" template="https://cartbatterydepot.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://cartbatterydepot.com/api/search/suggestions?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://cartbatterydepot.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://cartbatterydepot.com/favicon.png</Image>
   <Query role="example" searchTerms="6V golf cart battery"/>
-  <Developer>TIGON Batteries Development Team</Developer>
-  <Attribution>Search provided by TIGON Batteries - Expert Electric Vehicle Battery Solutions</Attribution>
+  <Developer>Cart Battery Depot Development Team</Developer>
+  <Attribution>Search provided by Cart Battery Depot - Expert Electric Vehicle Battery Solutions</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-us</Language>

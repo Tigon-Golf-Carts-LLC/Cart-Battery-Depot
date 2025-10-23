@@ -4,19 +4,19 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://tigonbatteries.com/</loc>
+    <loc>https://cartbatterydepot.com/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://tigonbatteries.com/tigon-logo.png</image:loc>
-      <image:title>TIGON Batteries Logo</image:title>
+      <image:loc>https://cartbatterydepot.com/favicon.png</image:loc>
+      <image:title>Cart Battery Depot Logo</image:title>
     </image:image>
   </url>
   
   <!-- Products Page -->
   <url>
-    <loc>https://tigonbatteries.com/products</loc>
+    <loc>https://cartbatterydepot.com/products</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -24,7 +24,7 @@
   
   <!-- Battery Guide -->
   <url>
-    <loc>https://tigonbatteries.com/battery-guide</loc>
+    <loc>https://cartbatterydepot.com/battery-guide</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -32,7 +32,7 @@
   
   <!-- Battery Selector -->
   <url>
-    <loc>https://tigonbatteries.com/battery-selector</loc>
+    <loc>https://cartbatterydepot.com/battery-selector</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -40,7 +40,7 @@
   
   <!-- Contact -->
   <url>
-    <loc>https://tigonbatteries.com/contact</loc>
+    <loc>https://cartbatterydepot.com/contact</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -48,7 +48,7 @@
   
   <!-- Golf Cart Battery Products -->
   <url>
-    <loc>https://tigonbatteries.com/products/golf-cart</loc>
+    <loc>https://cartbatterydepot.com/products/golf-cart</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -56,7 +56,7 @@
   
   <!-- LSV Battery Products -->
   <url>
-    <loc>https://tigonbatteries.com/products/lsv</loc>
+    <loc>https://cartbatterydepot.com/products/lsv</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -64,7 +64,7 @@
   
   <!-- NEV Battery Products -->
   <url>
-    <loc>https://tigonbatteries.com/products/nev</loc>
+    <loc>https://cartbatterydepot.com/products/nev</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -72,7 +72,7 @@
   
   <!-- MSV Battery Products -->
   <url>
-    <loc>https://tigonbatteries.com/products/msv</loc>
+    <loc>https://cartbatterydepot.com/products/msv</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -80,28 +80,28 @@
   
   <!-- Individual Product Pages - 6V Batteries -->
   <url>
-    <loc>https://tigonbatteries.com/product/tigon-6v-225-golf-cart-flooded</loc>
+    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-flooded</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://tigonbatteries.com/product/tigon-6v-225-golf-cart-agm</loc>
+    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-agm</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://tigonbatteries.com/product/tigon-6v-225-golf-cart-gel</loc>
+    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-gel</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://tigonbatteries.com/product/tigon-6v-225-golf-cart-lithium</loc>
+    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-lithium</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -1,8 +1,8 @@
 Contact: tel:+1-844-888-7732
-Contact: https://tigonbatteries.com/contact
+Contact: https://cartbatterydepot.com/contact
 Expires: 2025-12-31T23:59:59.000Z
-Encryption: https://tigonbatteries.com/pgp-key.txt
-Acknowledgments: https://tigonbatteries.com/security-thanks
+Encryption: https://cartbatterydepot.com/pgp-key.txt
+Acknowledgments: https://cartbatterydepot.com/security-thanks
 Preferred-Languages: en
-Canonical: https://tigonbatteries.com/.well-known/security.txt
-Policy: https://tigonbatteries.com/security-policy
+Canonical: https://cartbatterydepot.com/.well-known/security.txt
+Policy: https://cartbatterydepot.com/security-policy

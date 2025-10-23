@@ -1,17 +1,17 @@
-# TIGON Batteries - Website Team Information
+# Cart Battery Depot - Website Team Information
 # Website transparency and development team credits
 
 ## WEBSITE DEVELOPMENT TEAM
 
 ### Project Overview
-Website: tigonbatteries.com
+Website: cartbatterydepot.com
 Industry: Electric Vehicle Battery Solutions
 Specialization: Golf Cart, LSV, NEV, MSV Batteries
 Launch: 2024
 Platform: Modern React-based e-commerce solution
 
 ### Business Leadership
-Company: TIGON Batteries
+Company: Cart Battery Depot
 Focus: Premium electric vehicle battery solutions
 Expertise: 96+ battery configurations across all technologies
 Customer Service: 1-844-888-7732
@@ -57,7 +57,7 @@ Deployment: Modern cloud hosting
 Analytics: Google Analytics, performance monitoring
 
 ### Design System
-Color Palette: TIGON brand colors with accessibility focus
+Color Palette: Cart Battery Depot brand colors with accessibility focus
 Typography: Inter font family for readability
 Components: Reusable component library
 Responsive: Mobile-first design approach
@@ -119,7 +119,7 @@ User Feedback: Continuous user experience improvements
 
 ## BUSINESS CONTACT INFORMATION
 Primary Phone: 1-844-888-7732
-Website: tigonbatteries.com
+Website: cartbatterydepot.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Service Area: Nationwide United States
 Specialization: Electric Vehicle Battery Solutions
@@ -165,4 +165,4 @@ Website Issues: Customer service team coordination
 Accessibility Support: Full assistance for assistive technology users
 Mobile Support: Responsive design optimization
 
-This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for TIGON Batteries customers seeking electric vehicle battery solutions.
+This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for Cart Battery Depot customers seeking electric vehicle battery solutions.

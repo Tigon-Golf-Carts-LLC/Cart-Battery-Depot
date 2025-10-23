@@ -1,18 +1,18 @@
-# TIGON Batteries - Security Policy
+# Cart Battery Depot - Security Policy
 # Responsible vulnerability disclosure and security contact information
 
 ## SECURITY CONTACT INFORMATION
 Primary Contact: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: tigonbatteries.com
+Website: cartbatterydepot.com
 Response Time: 24-48 hours during business days
 
 ## RESPONSIBLE DISCLOSURE POLICY
-TIGON Batteries is committed to the security of our website and customer data. We welcome responsible security research and encourage the responsible disclosure of security vulnerabilities.
+Cart Battery Depot is committed to the security of our website and customer data. We welcome responsible security research and encourage the responsible disclosure of security vulnerabilities.
 
 ### Scope of Security Testing
 Authorized Testing Areas:
-✓ Public website content and functionality (tigonbatteries.com)
+✓ Public website content and functionality (cartbatterydepot.com)
 ✓ Customer-facing forms and input fields
 ✓ Public API endpoints and responses
 ✓ Web application security scanning
@@ -160,7 +160,7 @@ Documentation: Incident tracking and post-incident analysis
 ## SECURITY RESEARCH RECOGNITION
 
 ### Responsible Disclosure Acknowledgment
-TIGON Batteries values the security research community and will:
+Cart Battery Depot values the security research community and will:
 - Acknowledge responsible security researchers
 - Provide updates on remediation progress
 - Consider recognition in security advisories
@@ -175,7 +175,7 @@ We plan to implement a security researcher recognition program to acknowledge in
 Security researchers are authorized to test our public website within the scope defined above. Any testing outside this scope requires explicit written permission.
 
 ### Safe Harbor
-TIGON Batteries will not pursue legal action against security researchers who:
+Cart Battery Depot will not pursue legal action against security researchers who:
 - Follow our responsible disclosure policy
 - Make good faith efforts to avoid data destruction
 - Do not access or modify customer data
@@ -186,7 +186,7 @@ TIGON Batteries will not pursue legal action against security researchers who:
 Security Concerns: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Emergency Issues: Contact during business hours for urgent security matters
-General Inquiries: security@tigonbatteries.com (if email system implemented)
+General Inquiries: security@cartbatterydepot.com (if email system implemented)
 
 ## SECURITY POLICY UPDATES
 This security policy is reviewed quarterly and updated as needed to reflect current security practices and industry standards.
@@ -195,4 +195,4 @@ Last Updated: August 2024
 Next Review: November 2024
 Policy Version: 1.0
 
-TIGON Batteries is committed to maintaining the highest levels of security for our customers and business operations. We appreciate the security research community's efforts to help us maintain a secure environment for all users.
+Cart Battery Depot is committed to maintaining the highest levels of security for our customers and business operations. We appreciate the security research community's efforts to help us maintain a secure environment for all users.

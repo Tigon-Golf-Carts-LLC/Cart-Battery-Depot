@@ -50,15 +50,11 @@ export default function ProductCard({ product, showBestSeller = false }: Product
   const specs = safeGetSpecs(product);
 
   return (
-    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
+    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-cart-red" data-testid={`card-product-${product.id}`}>
       <div className="relative">
-        <img 
-          src="/attached_assets/tigon-logo.png" 
-          alt={product.altText}
-          className="w-full h-48 object-contain bg-gray-50" 
-        />
+        <Battery className="w-full h-48 p-8 text-gray-400 bg-gray-50" />
         {showBestSeller && (
-          <Badge className="absolute top-4 left-4 bg-tigon-green text-white">
+          <Badge className="absolute top-4 left-4 bg-cart-green text-white">
             Best Seller
           </Badge>
         )}
@@ -87,23 +83,24 @@ export default function ProductCard({ product, showBestSeller = false }: Product
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="text-2xl font-bold text-tigon-red">
+          <div className="text-2xl font-bold text-cart-red" data-testid={`text-price-${product.id}`}>
             {product.price === "Call for Pricing" ? (
               <span className="text-lg">Call for Pricing</span>
             ) : (
               `$${product.price}`
             )}
           </div>
-          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-tigon-green">
+          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-cart-green">
             {product.inStock ? "In Stock" : "Out of Stock"}
           </Badge>
         </div>
 
         <div className="space-y-2">
           <Button 
-            className="w-full bg-tigon-orange text-white hover:bg-orange-600"
+            className="w-full bg-cart-orange text-white hover:bg-orange-600"
             onClick={() => addToCartMutation.mutate(product.id)}
             disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
+            data-testid={`button-add-to-cart-${product.id}`}
           >
             <ShoppingCart className="h-4 w-4 mr-2" />
             {product.price === "Call for Pricing" ? "Call for Quote" : 
@@ -111,14 +108,15 @@ export default function ProductCard({ product, showBestSeller = false }: Product
           </Button>
           <div className="flex gap-2">
             <Link href={`/product/${product.id}`} className="flex-1">
-              <Button variant="outline" className="w-full px-3 py-2">
+              <Button variant="outline" className="w-full px-3 py-2" data-testid={`button-view-details-${product.id}`}>
                 View Details
               </Button>
             </Link>
             <a href="tel:1-844-888-7732" className="flex-1">
               <Button 
                 variant="outline" 
-                className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white px-3 py-2"
+                className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white px-3 py-2"
+                data-testid={`button-call-expert-${product.id}`}
               >
                 <Phone className="h-4 w-4 mr-1" />
                 Call Expert
