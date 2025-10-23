@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
@@ -10,8 +11,12 @@ import ProductDetail from "@/pages/product-detail";
 import BatteryGuide from "@/pages/battery-guide";
 import BatterySelector from "@/pages/battery-selector";
 import Contact from "@/pages/contact";
+import { initGA, initGTM } from "./lib/analytics";
+import { useAnalytics } from "./hooks/use-analytics";
 
 function Router() {
+  useAnalytics();
+  
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -27,6 +32,11 @@ function Router() {
 }
 
 function App() {
+  useEffect(() => {
+    initGTM();
+    initGA();
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
