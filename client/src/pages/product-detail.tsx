@@ -118,7 +118,7 @@ export default function ProductDetail() {
               </Link>
               <a href="tel:1-844-888-7732">
                 <Button className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-4 w-4 mr-2" />
+                  <Phone className="h-4 w-4 mr-2 text-cart-green" />
                   Call 1-844-888-7732
                 </Button>
               </a>
@@ -257,7 +257,7 @@ export default function ProductDetail() {
                     variant="outline" 
                     className="w-full border-cart-red text-cart-red hover:bg-cart-red hover:text-white"
                   >
-                    <Phone className="h-4 w-4 mr-2" />
+                    <Phone className="h-4 w-4 mr-2 text-cart-green" />
                     Call Expert: 1-844-888-7732
                   </Button>
                 </a>
@@ -271,11 +271,11 @@ export default function ProductDetail() {
                 <span>Quality Guaranteed</span>
               </div>
               <div className="flex flex-col items-center">
-                <Truck className="h-6 w-6 text-cart-red mb-1" />
+                <Truck className="h-6 w-6 text-cart-green mb-1" />
                 <span>Fast Shipping</span>
               </div>
               <div className="flex flex-col items-center">
-                <Shield className="h-6 w-6 text-cart-orange mb-1" />
+                <Shield className="h-6 w-6 text-cart-green mb-1" />
                 <span>Warranty Included</span>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function ProductDetail() {
                   <div className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="text-center p-6 border rounded-lg">
-                        <Phone className="h-8 w-8 text-cart-orange mx-auto mb-3" />
+                        <Phone className="h-8 w-8 text-cart-green mx-auto mb-3" />
                         <h4 className="font-semibold mb-2">Expert Installation Help</h4>
                         <p className="text-sm text-gray-600 mb-3">
                           Get professional guidance for battery installation and setup.
@@ -415,7 +415,7 @@ export default function ProductDetail() {
                       </div>
                       
                       <div className="text-center p-6 border rounded-lg">
-                        <Wrench className="h-8 w-8 text-cart-red mx-auto mb-3" />
+                        <Wrench className="h-8 w-8 text-cart-green mx-auto mb-3" />
                         <h4 className="font-semibold mb-2">Professional Installation</h4>
                         <p className="text-sm text-gray-600 mb-3">
                           Connect with certified installers in your area.
@@ -468,7 +468,7 @@ export default function ProductDetail() {
             </p>
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-cart-green" />
                 Call Cart Battery Depot Experts: 1-844-888-7732
               </Button>
             </a>

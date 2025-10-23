@@ -69,7 +69,7 @@ export default function Home() {
       icon: Settings,
       title: "96+ Battery Configurations",
       description: "Complete lineup covering every voltage, capacity and technology combination for Golf Cart Batteries and electric vehicles.",
-      color: "cart-red"
+      color: "cart-green"
     },
     {
       icon: Phone,
@@ -81,13 +81,13 @@ export default function Home() {
       icon: Truck,
       title: "Fast Nationwide Shipping",
       description: "Quick delivery of Cart Battery Depot across the country. Get your Golf Cart back on the course faster.",
-      color: "cart-orange"
+      color: "cart-green"
     },
     {
       icon: Shield,
       title: "Industry-Leading Warranty",
       description: "Comprehensive warranty coverage on all Cart Battery Depot Golf Cart Batteries and electric vehicle battery solutions.",
-      color: "cart-red"
+      color: "cart-green"
     },
     {
       icon: GraduationCap,
@@ -99,7 +99,7 @@ export default function Home() {
       icon: Wrench,
       title: "Professional Installation",
       description: "Expert installation services and detailed guides ensure optimal performance of your Cart Battery Depot battery system.",
-      color: "cart-orange"
+      color: "cart-green"
     }
   ];
 
@@ -201,7 +201,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-cart-green" />
                 Need Help Choosing? Call Cart Battery Depot Battery Experts: 1-844-888-7732
               </Button>
             </a>
@@ -255,7 +255,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-cart-red text-white px-8 py-4 text-lg hover:bg-blue-700">
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-cart-green" />
                 Experience Cart Battery Depot Excellence: Call 1-844-888-7732
               </Button>
             </a>
@@ -288,13 +288,13 @@ export default function Home() {
           <div className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/products">
               <Button size="lg" className="bg-cart-red text-white px-8 py-4 text-lg hover:bg-blue-700">
-                <Settings className="h-5 w-5 mr-2" />
+                <Settings className="h-5 w-5 mr-2 text-cart-green" />
                 View All 96+ Battery Models
               </Button>
             </Link>
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-cart-green" />
                 Questions? Call 1-844-888-7732
               </Button>
             </a>
@@ -350,7 +350,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-cart-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-cart-green" />
                 Still Have Questions? Call Cart Battery Depot Experts: 1-844-888-7732
               </Button>
             </a>
@@ -407,7 +407,7 @@ export default function Home() {
                 <div className="text-gray-600 mb-6">Trust Cart Battery Depot for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
                   <Button className="bg-cart-red text-white px-8 py-3 hover:bg-blue-700">
-                    <Phone className="h-4 w-4 mr-2" />
+                    <Phone className="h-4 w-4 mr-2 text-cart-green" />
                     Join Our Happy Customers: 1-844-888-7732
                   </Button>
                 </a>
@@ -432,7 +432,7 @@ export default function Home() {
               href="tel:1-844-888-7732"
               className="bg-cart-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
             >
-              <Phone className="h-6 w-6 mr-3" />
+              <Phone className="h-6 w-6 mr-3 text-cart-green" />
               <div>
                 <div>Call Battery Experts</div>
                 <div className="text-lg font-normal">1-844-888-7732</div>

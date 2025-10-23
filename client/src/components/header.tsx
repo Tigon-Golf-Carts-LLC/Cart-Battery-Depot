@@ -26,10 +26,10 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center text-sm">
             <span className="hidden sm:inline mr-2">Expert Battery Support:</span>
-            <Phone className="h-4 w-4 mr-2" />
+            <Phone className="h-4 w-4 mr-2 text-cart-green" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-cart-green transition-colors"
+              className="font-semibold hover:text-white transition-colors"
               data-testid="link-phone-topbar"
             >
               1-844-888-7732
@@ -45,7 +45,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer" data-testid="link-home-logo">
-                <Battery className="h-16 w-16 text-cart-red mr-3" />
+                <Battery className="h-16 w-16 text-cart-green mr-3" />
                 <div className="text-2xl font-bold text-cart-red">
                   Cart Battery <span className="text-cart-green">Depot</span>
                 </div>
@@ -69,7 +69,7 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-cart-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
+                className="hidden sm:flex bg-cart-orange text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center"
                 data-testid="link-phone-header"
               >
                 <Phone className="h-4 w-4 mr-2" />
@@ -113,7 +113,7 @@ export default function Header() {
                     <div className="border-t pt-4">
                       <a 
                         href="tel:1-844-888-7732" 
-                        className="flex items-center justify-center bg-cart-green text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-cart-orange text-white px-4 py-3 rounded-lg font-semibold"
                         data-testid="link-phone-mobile"
                       >
                         <Phone className="h-4 w-4 mr-2" />

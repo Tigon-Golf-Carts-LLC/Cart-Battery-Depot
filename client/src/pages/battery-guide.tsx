@@ -216,7 +216,7 @@ export default function BatteryGuide() {
                   <CardHeader className="bg-cart-red/5">
                     <div className="flex items-center justify-between">
                       <CardTitle className="text-2xl flex items-center">
-                        <Battery className="h-6 w-6 mr-2 text-cart-red" />
+                        <Battery className="h-6 w-6 mr-2 text-cart-green" />
                         {voltage.voltage} Battery Systems
                       </CardTitle>
                       <Badge className="bg-cart-green text-white">Cart Battery Depot Available</Badge>
@@ -227,7 +227,7 @@ export default function BatteryGuide() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                       <div>
                         <h4 className="font-semibold mb-2 flex items-center">
-                          <Settings className="h-4 w-4 mr-1 text-cart-red" />
+                          <Settings className="h-4 w-4 mr-1 text-cart-green" />
                           Configurations
                         </h4>
                         <ul className="text-sm space-y-1">
@@ -386,7 +386,7 @@ export default function BatteryGuide() {
                 <Card key={category.category}>
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <Shield className="h-5 w-5 mr-2 text-cart-red" />
+                      <Shield className="h-5 w-5 mr-2 text-cart-green" />
                       {category.category}
                     </CardTitle>
                   </CardHeader>
@@ -524,7 +524,7 @@ export default function BatteryGuide() {
 
                 <Card className="bg-cart-orange/10 border-cart-orange">
                   <CardContent className="p-6 text-center">
-                    <Phone className="h-8 w-8 text-cart-orange mx-auto mb-3" />
+                    <Phone className="h-8 w-8 text-cart-green mx-auto mb-3" />
                     <h4 className="font-bold mb-2">Professional Installation Recommended</h4>
                     <p className="text-sm text-gray-600 mb-4">
                       For safety and warranty compliance, we recommend professional 
@@ -555,7 +555,7 @@ export default function BatteryGuide() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-cart-orange text-white hover:bg-orange-600">
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Phone className="h-5 w-5 mr-2 text-cart-green" />
                   Call Cart Battery Depot Experts: 1-844-888-7732
                 </Button>
               </a>

@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <Battery className="h-16 w-16 text-cart-red mr-3" />
+              <Battery className="h-16 w-16 text-cart-green mr-3" />
               <div className="text-2xl font-bold text-cart-red">
                 Cart Battery <span className="text-cart-green">Depot</span>
               </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                 className="text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center"
                 data-testid="link-phone-footer"
               >
-                <Phone className="h-6 w-6 mr-2" />
+                <Phone className="h-6 w-6 mr-2 text-cart-green" />
                 1-844-888-7732
               </a>
               <p className="text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
@@ -151,7 +151,7 @@ export default function Footer() {
                   className="hover:text-cart-orange transition-colors font-semibold flex items-center"
                   data-testid="link-footer-phone"
                 >
-                  <Phone className="h-4 w-4 mr-1" />
+                  <Phone className="h-4 w-4 mr-1 text-cart-green" />
                   1-844-888-7732
                 </a>
               </li>
@@ -228,7 +228,7 @@ export default function Footer() {
           className="flex items-center justify-center text-white font-bold text-lg"
           data-testid="link-phone-sticky"
         >
-          <Phone className="h-5 w-5 mr-2" />
+          <Phone className="h-5 w-5 mr-2 text-cart-green" />
           Call Battery Experts: 1-844-888-7732
         </a>
       </div>
