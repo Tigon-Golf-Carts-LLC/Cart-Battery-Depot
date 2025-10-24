@@ -213,3 +213,44 @@
 .hover\:text-cart-red:hover {
   color: var(--cart-red);
 }
+
+/* Mobile Responsiveness Optimizations */
+@media (max-width: 768px) {
+  /* Ensure touch-friendly minimum sizes */
+  .touch-manipulation {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Improve text readability on mobile - prevent browser zoom */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents iOS zoom */
+  }
+  
+  /* Better spacing for mobile */
+  section {
+    scroll-margin-top: 80px; /* Account for sticky header */
+  }
+  
+  /* Prevent horizontal overflow */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Responsive images */
+  img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  /* Better button wrapping on mobile */
+  button {
+    word-break: break-word;
+    hyphens: auto;
+  }
+}

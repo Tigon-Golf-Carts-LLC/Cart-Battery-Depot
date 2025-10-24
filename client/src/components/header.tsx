@@ -22,14 +22,14 @@ export default function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-cart-green text-white py-2" data-testid="header-topbar">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center items-center text-sm">
-            <span className="hidden sm:inline mr-2">Expert Battery Support:</span>
-            <Phone className="h-4 w-4 mr-2 text-white" />
+      <div className="bg-cart-green text-white" data-testid="header-topbar">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="flex justify-center items-center text-xs sm:text-sm min-h-[48px]">
+            <span className="hidden sm:inline mr-1 sm:mr-2 text-xs sm:text-sm">Expert Battery Support:</span>
+            <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-1.5 sm:mr-2 text-white flex-shrink-0" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold text-cart-orange hover:text-white transition-colors"
+              className="font-semibold text-cart-orange hover:text-white transition-colors text-xs sm:text-sm whitespace-nowrap touch-manipulation inline-flex items-center min-h-[48px]"
               data-testid="link-phone-topbar"
             >
               1-844-888-7732
@@ -40,15 +40,15 @@ export default function Header() {
 
       {/* Main Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-2 sm:py-3 md:py-4">
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer" data-testid="link-home-logo">
                 <img 
                   src="/cart-battery-depot-logo.png" 
                   alt="Cart Battery Depot Logo" 
-                  className="h-16 w-auto"
+                  className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto"
                 />
               </div>
             </Link>
@@ -67,25 +67,26 @@ export default function Header() {
             </nav>
 
             {/* Header CTA & Cart */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-cart-orange text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center"
+                className="hidden sm:flex bg-cart-orange text-white px-3 sm:px-4 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center text-sm md:text-base min-h-[48px] touch-manipulation"
                 data-testid="link-phone-header"
               >
-                <Phone className="h-4 w-4 mr-2" />
-                1-844-888-7732
+                <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 mr-1.5 sm:mr-2" />
+                <span className="hidden lg:inline">1-844-888-7732</span>
+                <span className="lg:hidden">Call</span>
               </a>
               
               <Button
                 variant="ghost"
                 onClick={openCart}
-                className="relative p-2 text-gray-600 hover:text-cart-red"
+                className="relative p-2 min-h-[48px] min-w-[48px] text-gray-600 hover:text-cart-red touch-manipulation"
                 data-testid="button-cart-toggle"
               >
-                <ShoppingCart className="h-6 w-6" />
+                <ShoppingCart className="h-6 w-6 sm:h-7 sm:w-7" />
                 {itemCount > 0 && (
-                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-cart-orange" data-testid="text-cart-count">
+                  <Badge className="absolute -top-0.5 -right-0.5 h-5 w-5 sm:h-6 sm:w-6 flex items-center justify-center text-xs font-bold bg-cart-orange" data-testid="text-cart-count">
                     {itemCount}
                   </Badge>
                 )}
@@ -94,16 +95,16 @@ export default function Header() {
               {/* Mobile menu button */}
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" className="md:hidden p-2">
-                    <Menu className="h-6 w-6" />
+                  <Button variant="ghost" className="md:hidden p-2 min-h-[48px] min-w-[48px] touch-manipulation">
+                    <Menu className="h-6 w-6 sm:h-7 sm:w-7" />
                   </Button>
                 </SheetTrigger>
-                <SheetContent side="right" className="w-80">
-                  <div className="flex flex-col space-y-4 mt-8">
+                <SheetContent side="right" className="w-[85vw] max-w-sm">
+                  <div className="flex flex-col space-y-2 mt-8">
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
                         <span 
-                          className="block px-3 py-2 text-lg font-medium text-gray-700 hover:text-cart-red cursor-pointer"
+                          className="block px-4 py-3.5 text-base sm:text-lg font-medium text-gray-700 hover:text-cart-red hover:bg-gray-50 rounded-lg cursor-pointer transition-colors min-h-[48px] flex items-center touch-manipulation"
                           onClick={() => setIsMobileMenuOpen(false)}
                           data-testid={`link-mobile-${item.name.toLowerCase().replace(' ', '-')}`}
                         >
@@ -111,14 +112,14 @@ export default function Header() {
                         </span>
                       </Link>
                     ))}
-                    <div className="border-t pt-4">
+                    <div className="border-t pt-4 mt-4">
                       <a 
                         href="tel:1-844-888-7732" 
-                        className="flex items-center justify-center bg-cart-orange text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-cart-orange text-white px-4 py-4 rounded-lg font-semibold text-base sm:text-lg min-h-[56px] touch-manipulation hover:bg-orange-600 transition-colors"
                         data-testid="link-phone-mobile"
                       >
-                        <Phone className="h-4 w-4 mr-2" />
-                        Call Expert: 1-844-888-7732
+                        <Phone className="h-5 w-5 mr-2 flex-shrink-0" />
+                        <span className="whitespace-nowrap">Call Expert: 1-844-888-7732</span>
                       </a>
                     </div>
                   </div>
