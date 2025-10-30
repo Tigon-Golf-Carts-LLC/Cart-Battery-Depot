@@ -3,6 +3,7 @@ import { useLocation, useParams } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MetaTags from "@/components/MetaTags";
 import ProductCard from "@/components/product-card";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -151,6 +152,7 @@ export default function Products() {
 
   return (
     <div className="min-h-screen bg-gray-100">
+      <MetaTags />
       <Header />
       
       {/* Page Header */}

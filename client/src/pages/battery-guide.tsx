@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MetaTags from "@/components/MetaTags";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -157,6 +158,7 @@ export default function BatteryGuide() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <MetaTags type="article" />
       <Header />
       
       {/* Hero Section */}

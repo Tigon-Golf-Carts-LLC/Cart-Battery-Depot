@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import ProductCard from "@/components/product-card";
 import BatterySelectorQuiz from "@/components/battery-selector-quiz";
+import MetaTags from "@/components/MetaTags";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -153,6 +154,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <MetaTags />
       <Header />
       
       <Hero />

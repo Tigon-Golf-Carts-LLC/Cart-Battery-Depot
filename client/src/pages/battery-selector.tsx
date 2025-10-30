@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MetaTags from "@/components/MetaTags";
 import BatterySelectorQuiz from "@/components/battery-selector-quiz";
 import ProductCard from "@/components/product-card";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -144,6 +145,7 @@ export default function BatterySelector() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <MetaTags />
       <Header />
       
       {/* Hero Section */}

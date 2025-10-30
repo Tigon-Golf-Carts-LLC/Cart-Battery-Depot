@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MetaTags from "@/components/MetaTags";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -132,6 +133,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <MetaTags />
       <Header />
       
       {/* Hero Section */}
