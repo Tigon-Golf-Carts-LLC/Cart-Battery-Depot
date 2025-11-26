@@ -1,24 +1,41 @@
+# =============================================================================
 # Cart Battery Depot - Security Policy
-# Responsible vulnerability disclosure and security contact information
+# =============================================================================
+# RESPONSIBLE VULNERABILITY DISCLOSURE AND SECURITY CONTACT INFORMATION
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# =============================================================================
 
 ## SECURITY CONTACT INFORMATION
+
+Contact: 1-844-888-7732
+Preferred-Languages: en
+Canonical: https://cartbatterydepot.com/security.txt
+Expires: 2026-11-26T05:00:00.000Z
+
 Primary Contact: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: cartbatterydepot.com
+Website: https://cartbatterydepot.com
 Response Time: 24-48 hours during business days
 
 ## RESPONSIBLE DISCLOSURE POLICY
-Cart Battery Depot is committed to the security of our website and customer data. We welcome responsible security research and encourage the responsible disclosure of security vulnerabilities.
+
+Cart Battery Depot is committed to the security of our website and customer 
+data. We welcome responsible security research and encourage the responsible 
+disclosure of security vulnerabilities.
 
 ### Scope of Security Testing
+
 Authorized Testing Areas:
-✓ Public website content and functionality (cartbatterydepot.com)
+✓ Public website content and functionality (https://cartbatterydepot.com)
 ✓ Customer-facing forms and input fields
 ✓ Public API endpoints and responses
 ✓ Web application security scanning
 ✓ SSL/TLS configuration analysis
+✓ Accessibility and usability testing
 
 ### Prohibited Testing Activities
+
 ❌ Testing that disrupts service availability
 ❌ Social engineering attacks on employees
 ❌ Physical security testing of facilities
@@ -26,8 +43,11 @@ Authorized Testing Areas:
 ❌ Automated vulnerability scanning without permission
 ❌ Testing of third-party integrated services
 ❌ Data destruction or modification attempts
+❌ Accessing, downloading, or modifying customer data
+❌ Brute force attacks on authentication systems
 
 ### Vulnerability Reporting Process
+
 1. Identify and document the security issue
 2. Contact our security team at 1-844-888-7732
 3. Provide detailed vulnerability information
@@ -35,164 +55,214 @@ Authorized Testing Areas:
 5. Coordinate public disclosure timing if applicable
 
 ### Required Vulnerability Information
+
 Please include the following in your security report:
 - Detailed description of the vulnerability
 - Steps to reproduce the issue
 - Potential impact and risk assessment
-- Proof of concept (if applicable)
+- Proof of concept (if applicable and non-destructive)
 - Suggested remediation approaches
 - Your contact information for follow-up
 
 ## ENCRYPTION AND SECURE COMMUNICATION
 
 ### Website Security Measures
+
 ✓ TLS 1.3 encryption for all communications
 ✓ HTTPS enforcement across entire website
-✓ Secure cookie configuration
-✓ Content Security Policy implementation
+✓ HSTS (HTTP Strict Transport Security) enabled
+✓ Secure cookie configuration (Secure, HttpOnly, SameSite)
+✓ Content Security Policy (CSP) implementation
 ✓ HTTP security headers configuration
 ✓ Regular security monitoring and updates
 
 ### Data Protection
+
 Customer Information:
-- PII encrypted in transit and at rest
-- Secure session management
+- PII encrypted in transit using TLS 1.2/1.3
+- Secure session management with short timeouts
 - Regular security audits and assessments
-- Compliance with privacy regulations
-- Secure payment processing (when applicable)
+- Compliance with privacy regulations (GDPR, CCPA)
+- Secure payment processing via trusted providers
+- No storage of full payment card data
 
 ### Security Headers Implemented
-- Strict-Transport-Security (HSTS)
-- Content-Security-Policy (CSP)
-- X-Frame-Options
-- X-Content-Type-Options
-- Referrer-Policy
-- Permissions-Policy
+
+- Strict-Transport-Security (HSTS): max-age=31536000
+- Content-Security-Policy (CSP): Restrictive policy
+- X-Frame-Options: DENY
+- X-Content-Type-Options: nosniff
+- X-XSS-Protection: 1; mode=block
+- Referrer-Policy: strict-origin-when-cross-origin
+- Permissions-Policy: Restrictive feature policy
 
 ## SECURITY BEST PRACTICES
 
 ### Input Validation and Sanitization
-✓ All user inputs validated and sanitized
-✓ SQL injection prevention measures
-✓ Cross-site scripting (XSS) protection
+
+✓ All user inputs validated server-side
+✓ SQL injection prevention (parameterized queries)
+✓ Cross-site scripting (XSS) protection (output encoding)
 ✓ Cross-site request forgery (CSRF) protection
-✓ File upload security (if applicable)
+✓ File upload security (type validation, size limits)
+✓ Rate limiting on sensitive endpoints
 
 ### Authentication and Authorization
+
 ✓ Secure session management
 ✓ Strong password requirements (if applicable)
-✓ Account lockout protection
+✓ Account lockout protection after failed attempts
 ✓ Secure password reset processes
-✓ Multi-factor authentication options
+✓ Session timeout policies
+✓ Secure token handling
 
 ### Infrastructure Security
+
 ✓ Regular security updates and patches
 ✓ Network security monitoring
-✓ Intrusion detection systems
+✓ Web application firewall (WAF)
 ✓ Regular backup and disaster recovery testing
 ✓ Secure hosting environment configuration
+✓ Container and runtime security
 
 ## PRIVACY AND DATA PROTECTION
 
 ### Data Collection Practices
-Information We Collect:
+
+Information We May Collect:
 - Customer contact information for orders and support
-- Product preferences and shopping behavior
-- Website usage analytics and performance data
+- Product preferences and shopping behavior (with consent)
+- Website usage analytics (anonymized)
 - Customer service interaction records
+- Quote request information
 
 Data Usage:
 - Order processing and fulfillment
 - Customer support and technical assistance
 - Website improvement and optimization
-- Marketing communications (with consent)
+- Marketing communications (with explicit consent only)
 
 ### Data Protection Measures
+
 ✓ Minimal data collection principles
 ✓ Secure data storage and transmission
 ✓ Regular data access audits
 ✓ Employee data protection training
 ✓ Third-party vendor security requirements
+✓ Data retention policies
+✓ Right to deletion upon request
 
 ## INCIDENT RESPONSE PROCEDURES
 
 ### Security Incident Classification
+
 Critical: Immediate threat to customer data or service availability
 High: Significant security vulnerability requiring urgent attention
 Medium: Security issue requiring prompt investigation
 Low: Minor security concern for future improvement
 
 ### Response Timeline
-Critical Incidents: Immediate response within 1 hour
-High Priority: Response within 4 business hours
-Medium Priority: Response within 24 business hours
-Low Priority: Response within 48 business hours
 
-### Incident Response Team
-Primary Response: Customer service team (1-844-888-7732)
-Escalation: Technical leadership and security specialists
-Communication: Customer notification for significant incidents
-Documentation: Incident tracking and post-incident analysis
+Critical Issues: Investigation within 4 hours
+High Issues: Investigation within 24 hours
+Medium Issues: Investigation within 72 hours
+Low Issues: Scheduled for next security review
+
+### Incident Response Steps
+
+1. Detection and identification
+2. Containment and isolation
+3. Impact assessment
+4. Remediation and recovery
+5. Post-incident review
+6. Customer notification (if required)
 
 ## COMPLIANCE AND STANDARDS
 
-### Security Standards Compliance
-✓ OWASP Top 10 security practices
-✓ PCI DSS compliance for payment processing
-✓ GDPR privacy regulation compliance
-✓ CCPA privacy regulation compliance
-✓ SOC 2 Type II security controls (planned)
+### Security Standards
 
-### Regular Security Assessments
-✓ Quarterly vulnerability assessments
-✓ Annual penetration testing
-✓ Continuous security monitoring
-✓ Third-party security audits
-✓ Employee security training programs
+- OWASP Top 10 awareness and mitigation
+- NIST Cybersecurity Framework alignment
+- SOC 2 security principles (confidentiality, availability, integrity)
+- PCI DSS compliance for payment processing
 
-### Security Certifications and Standards
-- SSL/TLS certificates from trusted authorities
-- Security monitoring and alerting systems
-- Regular security policy reviews and updates
-- Vendor security assessment programs
-- Business continuity and disaster recovery plans
+### Privacy Regulations
 
-## SECURITY RESEARCH RECOGNITION
+- GDPR compliance for EU visitors
+- CCPA compliance for California residents
+- Privacy Shield considerations
+- Data protection by design
 
-### Responsible Disclosure Acknowledgment
-Cart Battery Depot values the security research community and will:
-- Acknowledge responsible security researchers
-- Provide updates on remediation progress
-- Consider recognition in security advisories
-- Coordinate disclosure timing appropriately
+## THIRD-PARTY SECURITY
 
-### Hall of Fame (Future Implementation)
-We plan to implement a security researcher recognition program to acknowledge individuals who help improve our security through responsible disclosure.
+### Third-Party Risk Management
 
-## LEGAL CONSIDERATIONS
+- Security assessment of all third-party vendors
+- Contractual security requirements
+- Regular security review of integrations
+- Minimal data sharing with third parties
+- Monitoring of third-party access
 
-### Authorized Security Testing
-Security researchers are authorized to test our public website within the scope defined above. Any testing outside this scope requires explicit written permission.
+### Subprocessors
 
-### Safe Harbor
-Cart Battery Depot will not pursue legal action against security researchers who:
-- Follow our responsible disclosure policy
-- Make good faith efforts to avoid data destruction
-- Do not access or modify customer data
-- Report vulnerabilities through proper channels
-- Allow reasonable time for remediation
+All third-party processors are required to:
+- Maintain appropriate security measures
+- Comply with applicable privacy laws
+- Report security incidents promptly
+- Allow security audits upon request
 
-## CONTACT FOR SECURITY ISSUES
-Security Concerns: 1-844-888-7732
-Business Hours: Monday - Saturday, 8AM - 5PM EST
-Emergency Issues: Contact during business hours for urgent security matters
-General Inquiries: security@cartbatterydepot.com (if email system implemented)
+## SECURITY AWARENESS
 
-## SECURITY POLICY UPDATES
-This security policy is reviewed quarterly and updated as needed to reflect current security practices and industry standards.
+### Employee Training
 
-Last Updated: August 2024
-Next Review: November 2024
-Policy Version: 1.0
+- Regular security awareness training
+- Phishing awareness education
+- Secure development practices
+- Incident response procedures
+- Data handling guidelines
 
-Cart Battery Depot is committed to maintaining the highest levels of security for our customers and business operations. We appreciate the security research community's efforts to help us maintain a secure environment for all users.
+### Customer Security Tips
+
+- Use strong, unique passwords
+- Be cautious of phishing attempts
+- Verify website authenticity (https://cartbatterydepot.com)
+- Keep browser and devices updated
+- Contact us for suspicious communications
+
+## SECURITY UPDATES AND NOTIFICATIONS
+
+### How We Communicate Security Issues
+
+- Security updates posted on website (if necessary)
+- Direct notification for affected customers
+- Coordination with security researchers
+- Transparent disclosure when appropriate
+
+## ACKNOWLEDGMENTS
+
+We appreciate the security research community's efforts in responsibly 
+disclosing vulnerabilities. Researchers who follow our responsible 
+disclosure guidelines may be acknowledged (with permission) for their 
+contributions to our security.
+
+## LEGAL SAFE HARBOR
+
+Cart Battery Depot will not pursue legal action against security researchers 
+who:
+- Conduct testing in good faith within the authorized scope
+- Report vulnerabilities responsibly and privately
+- Do not exploit vulnerabilities for personal gain
+- Do not access, modify, or delete customer data
+- Comply with all applicable laws
+
+## CONTACT FOR SECURITY CONCERNS
+
+Primary Contact: 1-844-888-7732
+Website: https://cartbatterydepot.com
+Response Commitment: 24-48 business hours
+
+For urgent security matters, please call during business hours.
+
+# =============================================================================
+# END OF SECURITY.TXT - CART BATTERY DEPOT SECURITY POLICY
+# =============================================================================

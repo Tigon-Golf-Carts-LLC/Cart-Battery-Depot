@@ -1,0 +1,337 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cartbatterydepot.com/#organization",
+      "name": "Cart Battery Depot",
+      "alternateName": "Cart Battery Depot LLC",
+      "url": "https://cartbatterydepot.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cartbatterydepot.com/cart-battery-depot-logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://cartbatterydepot.com/cart-battery-depot-logo.png",
+      "description": "Cart Battery Depot is a leading provider of electric vehicle battery solutions, specializing in Golf Cart Batteries, LSV, NEV, and MSV batteries with over 96+ configurations available nationwide.",
+      "telephone": "1-844-888-7732",
+      "email": "info@cartbatterydepot.com",
+      "sameAs": [
+        "https://facebook.com/cartbatterydepot",
+        "https://twitter.com/cartbatterydepot"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-888-7732",
+          "contactType": "sales",
+          "areaServed": "US",
+          "availableLanguage": "English",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-888-7732",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-888-7732",
+          "contactType": "technical support",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Credit Card, Debit Card"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cartbatterydepot.com/#website",
+      "url": "https://cartbatterydepot.com",
+      "name": "Cart Battery Depot",
+      "description": "Professional Golf Cart Batteries, LSV, NEV, and MSV Battery Solutions - 96+ configurations available with expert support.",
+      "publisher": {
+        "@id": "https://cartbatterydepot.com/#organization"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://cartbatterydepot.com/products?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cartbatterydepot.com/#webpage",
+      "url": "https://cartbatterydepot.com",
+      "name": "Cart Battery Depot - Golf Cart Batteries | LSV, NEV & MSV Battery Experts",
+      "description": "Cart Battery Depot specializes in Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. Over 10,000 satisfied customers nationwide. Call 1-844-888-7732",
+      "isPartOf": {
+        "@id": "https://cartbatterydepot.com/#website"
+      },
+      "about": {
+        "@id": "https://cartbatterydepot.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://cartbatterydepot.com/#localbusiness",
+      "name": "Cart Battery Depot",
+      "image": "https://cartbatterydepot.com/cart-battery-depot-logo.png",
+      "telephone": "1-844-888-7732",
+      "url": "https://cartbatterydepot.com",
+      "priceRange": "$$",
+      "description": "Nationwide supplier of golf cart batteries, LSV, NEV, and MSV batteries with 96+ configurations and expert phone support.",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cartbatterydepot.com/product/6v-225ah-flooded#product",
+      "name": "Cart Battery Depot 6V 225Ah Flooded Lead-Acid Golf Cart Battery",
+      "description": "Professional-grade 6V 225Ah flooded lead-acid battery for golf carts. Traditional proven technology with excellent value. Compatible with Club Car, EZ-GO, Yamaha, and most golf cart brands.",
+      "image": "https://cartbatterydepot.com/battery-product.png",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Depot"
+      },
+      "manufacturer": {
+        "@id": "https://cartbatterydepot.com/#organization"
+      },
+      "category": "Golf Cart Batteries",
+      "sku": "CBD-6V-225-FLD",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://cartbatterydepot.com/product/6v-225ah-flooded",
+        "priceCurrency": "USD",
+        "price": "168.00",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@id": "https://cartbatterydepot.com/#organization"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 7,
+              "unitCode": "DAY"
+            }
+          }
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Voltage",
+          "value": "6V"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Capacity",
+          "value": "225Ah"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Technology",
+          "value": "Flooded Lead-Acid"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cartbatterydepot.com/product/8v-170ah-flooded#product",
+      "name": "Cart Battery Depot 8V 170Ah Flooded Lead-Acid Golf Cart Battery",
+      "description": "Professional-grade 8V 170Ah flooded lead-acid battery for golf carts. Balanced performance option for 48V and 72V systems.",
+      "image": "https://cartbatterydepot.com/battery-product.png",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Depot"
+      },
+      "category": "Golf Cart Batteries",
+      "sku": "CBD-8V-170-FLD",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "178.00",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://cartbatterydepot.com/product/12v-105ah-flooded#product",
+      "name": "Cart Battery Depot 12V 105Ah Flooded Lead-Acid Golf Cart Battery",
+      "description": "Professional-grade 12V 105Ah flooded lead-acid battery for golf carts. High-performance solution requiring fewer batteries.",
+      "image": "https://cartbatterydepot.com/battery-product.png",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Depot"
+      },
+      "category": "Golf Cart Batteries",
+      "sku": "CBD-12V-105-FLD",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "265.00",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://cartbatterydepot.com/battery-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What battery do I need for my golf cart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cart Battery Depot offers golf cart batteries in 6V, 8V, and 12V configurations. The most popular is our 6V 225Ah system. Call 1-844-888-7732 for personalized recommendations based on your specific cart model and usage needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do golf cart batteries last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Battery lifespan varies by technology: Flooded batteries last 3-5 years, AGM batteries 4-6 years, Gel batteries 4-7 years, and Lithium batteries 8-10+ years with proper maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between AGM and Flooded batteries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flooded batteries are traditional, proven technology requiring regular maintenance (water refilling) but are most economical. AGM (Absorbed Glass Mat) batteries are completely maintenance-free, spill-proof, and more resistant to vibration, but cost more upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I mix different battery types in my golf cart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, mixing battery types is not recommended. Always use identical batteries (same voltage, capacity, technology, and preferably age) in your battery bank for optimal performance and longevity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer battery installation services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Cart Battery Depot offers professional installation services for $200. We also provide detailed installation guides and phone support for self-installation. Call 1-844-888-7732 to schedule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a core charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core charges are refundable deposits that encourage battery recycling. The charge is $29 for 6V/8V batteries and $57 for 12V batteries. Return your old batteries to receive the full refund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many batteries does a golf cart need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your voltage system: 36V systems use 6 x 6V batteries, 48V systems use 8 x 6V, 6 x 8V, or 4 x 12V batteries, and 72V systems use 6 x 12V batteries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are lithium golf cart batteries worth the investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lithium batteries offer significant advantages: 50% lighter weight, 8-10+ year lifespan, faster charging, and zero maintenance. While they have higher upfront cost, they often provide better long-term value for frequent users."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://cartbatterydepot.com/#installation-service",
+      "name": "Professional Golf Cart Battery Installation",
+      "provider": {
+        "@id": "https://cartbatterydepot.com/#organization"
+      },
+      "serviceType": "Battery Installation",
+      "description": "Professional battery installation service includes battery installation, cable inspection, and system testing.",
+      "offers": {
+        "@type": "Offer",
+        "price": "200.00",
+        "priceCurrency": "USD"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://cartbatterydepot.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://cartbatterydepot.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://cartbatterydepot.com/products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Golf Cart Batteries",
+          "item": "https://cartbatterydepot.com/products/golf-cart"
+        }
+      ]
+    }
+  ]
+}

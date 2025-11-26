@@ -2,18 +2,18 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/favicon.png"/>
-      <square150x150logo src="/favicon.png"/>
-      <square310x310logo src="/favicon.png"/>
-      <wide310x150logo src="/favicon.png"/>
-      <TileColor>#af1f31</TileColor>
+      <square70x70logo src="https://cartbatterydepot.com/favicon.png"/>
+      <square150x150logo src="https://cartbatterydepot.com/favicon.png"/>
+      <square310x310logo src="https://cartbatterydepot.com/icon-512x512.png"/>
+      <wide310x150logo src="https://cartbatterydepot.com/favicon.png"/>
+      <TileColor>#8cc24e</TileColor>
     </tile>
     <badge>
-      <polling-uri src="/api/badge-status"/>
+      <polling-uri src="https://cartbatterydepot.com/api/badge-status"/>
       <frequency>30</frequency>
     </badge>
     <notification>
-      <polling-uri src="/api/notifications"/>
+      <polling-uri src="https://cartbatterydepot.com/api/notifications"/>
       <frequency>60</frequency>
       <cycle>1</cycle>
     </notification>

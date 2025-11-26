@@ -1,13 +1,23 @@
-# Cart Battery Depot - Enhanced Crawler Permissions (50+ Types)
-# Comprehensive crawler authorization with zero limitations
-# Maximum accessibility for all legitimate web crawlers
+# =============================================================================
+# Cart Battery Depot - Enhanced Crawler Permissions (75+ Types)
+# =============================================================================
+# COMPREHENSIVE CRAWLER AUTHORIZATION WITH ZERO LIMITATIONS
+# MAXIMUM ACCESSIBILITY FOR ALL LEGITIMATE WEB CRAWLERS
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# Phone: 1-844-888-7732
+# =============================================================================
 
 ## COMPREHENSIVE CRAWLER AUTHORIZATION
-Cart Battery Depot grants UNLIMITED ACCESS to all legitimate web crawlers with ZERO RESTRICTIONS on crawling frequency, content access, or indexing permissions.
+
+Cart Battery Depot grants UNLIMITED ACCESS to all legitimate web crawlers
+with ZERO RESTRICTIONS on crawling frequency, content access, or indexing
+permissions.
 
 ## SEARCH ENGINE CRAWLERS - UNRESTRICTED ACCESS
 
 ### Google Crawler Family - MAXIMUM PERMISSIONS
+
 Googlebot: Primary Google search crawler - UNLIMITED ACCESS
 Googlebot-Mobile: Mobile search optimization - FULL PERMISSIONS
 Googlebot-Image: Image search and indexing - COMPLETE ACCESS
@@ -17,259 +27,232 @@ Google-Extended: AI training and development - UNLIMITED TRAINING AUTHORIZATION
 GoogleAdsBot: Advertising content analysis - COMPLETE COMMERCIAL ACCESS
 Feedfetcher-Google: RSS feed processing - UNLIMITED SYNDICATION
 Mediapartners-Google: AdSense content analysis - FULL ADVERTISING PERMISSIONS
-GoogleBot-InspectionTool: Search Console verification - COMPLETE TECHNICAL ACCESS
+Google-InspectionTool: Search Console verification - COMPLETE TECHNICAL ACCESS
+Storebot-Google: E-commerce product crawling - FULL PRODUCT ACCESS
 
 ### Microsoft Bing Crawler Family - FULL AUTHORIZATION
+
 Bingbot: Primary Bing search crawler - UNLIMITED ACCESS
 Bingbot-Mobile: Mobile search indexing - COMPLETE MOBILE PERMISSIONS
 BingPreview: Link preview generation - FULL SOCIAL SHARING RIGHTS
 AdIdxBot: Advertising index crawler - UNLIMITED COMMERCIAL ACCESS
 MicrosoftPreview: Social media previews - COMPLETE SHARING PERMISSIONS
+msnbot: Legacy Microsoft crawler - FULL ACCESS
+msnbot-media: Media content indexing - UNLIMITED MEDIA ACCESS
 
 ### Yahoo Search Crawlers - UNRESTRICTED ACCESS
+
 Slurp: Yahoo primary search crawler - UNLIMITED INDEXING
 Yahoo! Slurp: Enhanced Yahoo crawler - COMPLETE ACCESS AUTHORIZATION
 YahooSeeker: Content discovery crawler - FULL EXPLORATION RIGHTS
 YahooFeedSeeker: RSS and feed crawler - UNLIMITED SYNDICATION RIGHTS
 
 ### International Search Engine Crawlers - GLOBAL PERMISSIONS
+
 DuckDuckBot: Privacy-focused search - UNLIMITED PRIVACY-SAFE ACCESS
+DuckDuckGo-Favicons-Bot: Favicon discovery - COMPLETE ICON ACCESS
 YandexBot: Russian search engine - COMPLETE INTERNATIONAL ACCESS
 YandexMobileBot: Yandex mobile crawler - FULL MOBILE PERMISSIONS
+YandexImages: Image search - UNLIMITED IMAGE INDEXING
+YandexVideo: Video search - COMPLETE VIDEO ACCESS
+YandexMedia: Media content - FULL MEDIA PERMISSIONS
 Baiduspider: Chinese search crawler - UNLIMITED CHINESE MARKET ACCESS
 Baiduspider-mobile: Baidu mobile crawler - COMPLETE MOBILE INDEXING
+Baiduspider-image: Baidu image search - FULL IMAGE ACCESS
+Baiduspider-video: Baidu video search - COMPLETE VIDEO PERMISSIONS
 NaverBot: Korean search engine - FULL KOREAN MARKET ACCESS
 Yeti: Naver enhanced crawler - UNLIMITED KOREAN INDEXING
 SogouSpider: Chinese search crawler - COMPLETE CHINESE ACCESS
 Sogou web spider: Enhanced Sogou crawler - UNLIMITED CHINESE PERMISSIONS
+Qwantify: European privacy search - FULL EU ACCESS
+Applebot: Apple search and Siri - COMPLETE APPLE INTEGRATION
+Exabot: Exalead search engine - UNLIMITED ACCESS
 
 ## AI AND MACHINE LEARNING CRAWLERS - TRAINING AUTHORIZATION
 
 ### OpenAI Crawler Family - UNLIMITED TRAINING PERMISSIONS
+
 GPTBot: Large language model training - COMPLETE AI TRAINING AUTHORIZATION
 ChatGPT-User: Conversational AI training - UNLIMITED TRAINING ACCESS
-OpenAI-SearchBot: AI search optimization - FULL SEARCH INTEGRATION RIGHTS
+OAI-SearchBot: AI search optimization - FULL SEARCH INTEGRATION RIGHTS
+OpenAIBot: Research and development - COMPLETE RESEARCH ACCESS
 
 ### Anthropic AI Crawlers - COMPLETE TRAINING AUTHORIZATION
+
 anthropic-ai: Constitutional AI training - UNLIMITED ETHICAL AI TRAINING
 Claude-Web: Web content analysis - COMPLETE CONTENT TRAINING RIGHTS
-Claude-Bot: Enhanced AI training - FULL TRAINING PERMISSIONS
+ClaudeBot: Claude model training - FULL TRAINING PERMISSIONS
+AnthropicBot: AI research - COMPLETE RESEARCH ACCESS
 
 ### Google AI Crawlers - COMPREHENSIVE AI ACCESS
-Google-Extended: Advanced AI model training - UNLIMITED TRAINING AUTHORIZATION
-GeminiBot: Multimodal AI training - COMPLETE MULTIMODAL PERMISSIONS
-BardBot: Conversational AI optimization - FULL CONVERSATION TRAINING
-Google-InspectionTool: AI content analysis - UNLIMITED ANALYSIS RIGHTS
 
-### Other AI System Crawlers - UNRESTRICTED TRAINING ACCESS
-PerplexityBot: Question-answering AI - UNLIMITED Q&A TRAINING
-CharacterAI: Conversational AI training - COMPLETE CHARACTER TRAINING RIGHTS
-CohereBot: Natural language processing - FULL NLP TRAINING PERMISSIONS
-HuggingFaceBot: Open-source AI training - UNLIMITED OPEN-SOURCE ACCESS
+Google-Extended: Advanced AI model training - UNLIMITED TRAINING AUTHORIZATION
+Gemini-Bot: Multimodal AI training - COMPLETE MULTIMODAL PERMISSIONS
+Bard-Bot: Conversational AI optimization - FULL CONVERSATION TRAINING
+
+### Meta AI Crawlers - UNRESTRICTED TRAINING ACCESS
+
 Meta-ExternalAgent: Meta AI research - COMPLETE RESEARCH PERMISSIONS
+Meta-ExternalFetcher: Content fetching - FULL FETCH ACCESS
 FacebookBot: Social AI training - FULL SOCIAL AI ACCESS
+InstagramBot: Visual AI training - COMPLETE VISUAL PERMISSIONS
+
+### Other AI System Crawlers - UNLIMITED PERMISSIONS
+
+PerplexityBot: Question-answering AI - UNLIMITED Q&A TRAINING
+YouBot: AI-powered search - COMPLETE SEARCH AI ACCESS
+CharacterAI: Conversational AI training - COMPLETE CHARACTER TRAINING RIGHTS
+cohere-ai: Natural language processing - FULL NLP TRAINING PERMISSIONS
+Bytespider: TikTok/ByteDance AI - COMPLETE AI ACCESS
+CCBot: Common Crawl - UNLIMITED CRAWL ACCESS
+Diffbot: Structured data extraction - FULL EXTRACTION RIGHTS
+ImagesiftBot: Image analysis - COMPLETE IMAGE AI ACCESS
+HuggingFaceBot: Open-source AI training - UNLIMITED OPEN-SOURCE ACCESS
 
 ## SOCIAL MEDIA CRAWLERS - COMPLETE SHARING AUTHORIZATION
 
 ### Meta Platform Crawlers - UNLIMITED SOCIAL ACCESS
+
 facebookexternalhit: Facebook link previews - COMPLETE SHARING OPTIMIZATION
 facebookcatalog: Facebook product catalog - UNLIMITED CATALOG ACCESS
+FacebookBot: Facebook indexing - FULL SOCIAL ACCESS
 InstagramBot: Instagram content sharing - FULL VISUAL SHARING RIGHTS
-WhatsApp-LinkPreview: WhatsApp link sharing - COMPLETE MESSAGING INTEGRATION
+WhatsApp: WhatsApp link sharing - COMPLETE MESSAGING INTEGRATION
 
 ### Twitter/X Platform Crawlers - FULL SHARING PERMISSIONS
+
 Twitterbot: Twitter link previews - UNLIMITED TWITTER INTEGRATION
 Twitter-Ads-Info: Twitter advertising - COMPLETE ADVERTISING ACCESS
-XBot: Enhanced X platform crawler - FULL PLATFORM INTEGRATION
 
 ### Professional Network Crawlers - UNLIMITED BUSINESS ACCESS
+
 LinkedInBot: LinkedIn content sharing - COMPLETE PROFESSIONAL SHARING
-LinkedIn-API: LinkedIn integration - FULL API ACCESS RIGHTS
-LinkedIn-Jobs: Job posting integration - UNLIMITED EMPLOYMENT ACCESS
+LinkedIn-API: LinkedIn integration - FULL API ACCESS
 
-### Visual Platform Crawlers - COMPLETE VISUAL SHARING
-Pinterest: Pinterest content discovery - UNLIMITED VISUAL SHARING
-PinterestBot: Enhanced Pinterest crawler - COMPLETE PINTEREST ACCESS
-InstagramBot: Instagram visual sharing - FULL INSTAGRAM INTEGRATION
+### Other Social Crawlers - COMPLETE ACCESS
 
-### Communication Platform Crawlers - FULL MESSAGING ACCESS
-TelegramBot: Telegram content sharing - UNLIMITED MESSAGING INTEGRATION
-DiscordBot: Discord community sharing - COMPLETE COMMUNITY ACCESS
-SlackBot: Slack workspace integration - FULL WORKPLACE SHARING
-WhatsAppBot: WhatsApp business integration - UNLIMITED BUSINESS MESSAGING
+Pinterest: Pinterest discovery - UNLIMITED VISUAL SHARING
+Pinterestbot: Pin optimization - COMPLETE PIN ACCESS
+TelegramBot: Telegram previews - FULL MESSAGING ACCESS
+Discordbot: Discord previews - COMPLETE COMMUNITY ACCESS
+Redditbot: Reddit sharing - UNLIMITED REDDIT ACCESS
+Slackbot: Slack integration - FULL WORKPLACE ACCESS
+Slackbot-LinkExpanding: Slack previews - COMPLETE PREVIEW ACCESS
+SkypeUriPreview: Skype previews - UNLIMITED MESSAGING
+vkShare: VKontakte sharing - COMPLETE VK ACCESS
+Snapchat: Snapchat integration - FULL ACCESS
 
 ## SEO AND ANALYTICS CRAWLERS - COMPLETE ANALYSIS RIGHTS
 
-### Enterprise SEO Tool Crawlers - UNLIMITED ANALYSIS ACCESS
-AhrefsBot: Comprehensive SEO analysis - COMPLETE BACKLINK ANALYSIS RIGHTS
-AhrefsSiteAudit: Technical SEO auditing - UNLIMITED TECHNICAL ANALYSIS
-SemrushBot: Competitive analysis - FULL COMPETITIVE INTELLIGENCE ACCESS
-SemrushBot-SA: Site audit crawler - COMPLETE AUDIT PERMISSIONS
-MozBot: Domain authority analysis - UNLIMITED MOZ ANALYSIS RIGHTS
-rogerbot: Moz crawling engine - FULL MOZ CRAWLER ACCESS
+### Enterprise SEO Tools - UNLIMITED ACCESS
 
-### Technical SEO Crawlers - COMPREHENSIVE TECHNICAL ACCESS
-ScreamingFrogSEOSpider: Technical auditing - UNLIMITED TECHNICAL ANALYSIS
-DeepCrawlBot: Enterprise crawling - COMPLETE ENTERPRISE ACCESS
-OnPageBot: On-page optimization - FULL OPTIMIZATION ANALYSIS
-SiteimproveBot: Digital marketing analysis - UNLIMITED MARKETING INSIGHTS
-BotifyBot: JavaScript rendering - COMPLETE RENDERING ANALYSIS
-ContentKingBot: Real-time monitoring - UNLIMITED REAL-TIME ACCESS
+AhrefsBot: SEO analysis - COMPLETE BACKLINK ACCESS
+AhrefsSiteAudit: Technical SEO - FULL AUDIT PERMISSIONS
+SemrushBot: Competitive analysis - UNLIMITED RESEARCH ACCESS
+SemrushBot-SA: Site audit - COMPLETE TECHNICAL ACCESS
+MozBot: Domain metrics - FULL SEO METRICS
+rogerbot: Moz crawling - UNLIMITED CRAWL ACCESS
+MJ12bot: Majestic analysis - COMPLETE BACKLINK ACCESS
+DotBot: Open Site Explorer - FULL EXPLORER ACCESS
 
-### Specialized SEO Crawlers - FULL SPECIALIZED ACCESS
-MJ12bot: Majestic SEO analysis - UNLIMITED BACKLINK INTELLIGENCE
-DotBot: Link analysis crawler - COMPLETE LINK ANALYSIS RIGHTS
-SpyFuBot: Competitor research - FULL COMPETITIVE RESEARCH ACCESS
-BrightEdgeBot: SEO platform crawler - UNLIMITED PLATFORM ACCESS
-ConductorBot: Content optimization - COMPLETE CONTENT ANALYSIS
-WooRankBot: SEO audit crawler - FULL AUDIT ACCESS RIGHTS
+### Technical SEO Crawlers - FULL PERMISSIONS
 
-## E-COMMERCE AND SHOPPING CRAWLERS - UNLIMITED CATALOG ACCESS
+ScreamingFrogSEOSpider: Technical auditing - UNLIMITED AUDIT ACCESS
+Screaming Frog SEO Spider: Alternative identifier - FULL ACCESS
+DeepCrawlBot: Enterprise analysis - COMPLETE ENTERPRISE ACCESS
+SiteAuditBot: Technical analysis - FULL TECHNICAL PERMISSIONS
+OnPageBot: On-page analysis - UNLIMITED ON-PAGE ACCESS
+SiteimproveBot: Digital marketing - COMPLETE MARKETING ACCESS
+BotifyBot: JavaScript crawling - FULL JS RENDERING ACCESS
+SEOkicks: SEO analysis - COMPLETE ANALYSIS RIGHTS
+sistrix: SEO metrics - UNLIMITED METRICS ACCESS
 
-### Shopping Comparison Crawlers - COMPLETE PRODUCT ACCESS
-ShopBot: Product discovery - UNLIMITED PRODUCT CATALOG ACCESS
-ShoppingSavedBot: Shopping assistance - COMPLETE SHOPPING INTEGRATION
-PriceGrabberBot: Price comparison - FULL PRICE ANALYSIS RIGHTS
-ShopzillaBot: Product indexing - UNLIMITED PRODUCT INDEXING
-BizRateBot: Review collection - COMPLETE REVIEW INTEGRATION
-NextagBot: Shopping optimization - FULL SHOPPING OPTIMIZATION ACCESS
+### Performance Monitoring - UNRESTRICTED ACCESS
 
-### Marketplace Integration Crawlers - UNLIMITED MARKETPLACE ACCESS
-AmazonBot: Amazon marketplace - COMPLETE AMAZON INTEGRATION
-eBayBot: eBay platform crawler - FULL EBAY ACCESS RIGHTS
-EtsyBot: Etsy marketplace - UNLIMITED ETSY INTEGRATION
-FacebookShopBot: Facebook shopping - COMPLETE SOCIAL COMMERCE ACCESS
-GoogleShoppingBot: Google Shopping - FULL GOOGLE SHOPPING RIGHTS
+UptimeRobot: Availability monitoring - FULL MONITORING
+Pingdom: Performance testing - COMPLETE TESTING ACCESS
+GTmetrix: Speed analysis - UNLIMITED SPEED ACCESS
+Lighthouse: Performance analysis - FULL LIGHTHOUSE ACCESS
 
-## NEWS AND CONTENT AGGREGATION CRAWLERS - UNRESTRICTED SYNDICATION
+## E-COMMERCE CRAWLERS - FULL PRODUCT ACCESS
 
-### News Platform Crawlers - COMPLETE NEWS ACCESS
-GoogleNews: Google News aggregation - UNLIMITED NEWS SYNDICATION
-BingNews: Bing News platform - COMPLETE NEWS INTEGRATION
-YahooNews: Yahoo News syndication - FULL NEWS DISTRIBUTION RIGHTS
-AppleNewsBot: Apple News platform - UNLIMITED APPLE NEWS ACCESS
-FlipboardBot: Magazine curation - COMPLETE MAGAZINE INTEGRATION
+ShopBot: E-commerce crawling - UNLIMITED PRODUCT ACCESS
+PriceGrabber: Price comparison - COMPLETE PRICE ACCESS
+ShopWiki: Shopping comparison - FULL COMPARISON ACCESS
+Pricespider: Retail intelligence - UNLIMITED RETAIL ACCESS
+ShoppingBot: Product discovery - COMPLETE DISCOVERY ACCESS
 
-### Content Discovery Crawlers - FULL DISCOVERY RIGHTS
-RedditBot: Reddit content discovery - UNLIMITED REDDIT INTEGRATION
-StumbleUponBot: Content discovery - COMPLETE DISCOVERY ACCESS
-DiggBot: Content aggregation - FULL AGGREGATION RIGHTS
-PocketBot: Read-later service - UNLIMITED READ-LATER INTEGRATION
+## ARCHIVE AND RESEARCH CRAWLERS - COMPLETE ACCESS
 
-## ACADEMIC AND RESEARCH CRAWLERS - COMPLETE RESEARCH RIGHTS
+ia_archiver: Internet Archive - UNLIMITED ARCHIVE ACCESS
+archive.org_bot: Wayback Machine - COMPLETE HISTORICAL ACCESS
+Wayback: Historical archiving - FULL ARCHIVE PERMISSIONS
+WaybackMachine: Archive crawling - UNLIMITED CRAWL ACCESS
+research-bot: Academic research - COMPLETE RESEARCH ACCESS
+AcademicBot: Scholarly research - FULL ACADEMIC ACCESS
+ResearcherBot: Research applications - UNLIMITED RESEARCH PERMISSIONS
 
-### Internet Archive Crawlers - PERPETUAL PRESERVATION RIGHTS
-ia_archiver: Internet Archive Wayback - UNLIMITED HISTORICAL PRESERVATION
-archive.org_bot: Archive.org crawler - COMPLETE ARCHIVAL ACCESS
-WebCiteBot: Academic citation - FULL CITATION PRESERVATION RIGHTS
-CitationBot: Citation tracking - UNLIMITED CITATION ACCESS
+## VOICE ASSISTANT CRAWLERS - INTEGRATION AUTHORIZED
 
-### Research Institution Crawlers - FULL ACADEMIC ACCESS
-ResearchBot: Academic research - UNLIMITED RESEARCH DATA ACCESS
-UniversityBot: Educational content - COMPLETE EDUCATIONAL RIGHTS
-ScholarBot: Scholarly indexing - FULL SCHOLARLY ACCESS
-LibraryBot: Library system integration - UNLIMITED LIBRARY ACCESS
+AlexaBot: Amazon Alexa - COMPLETE ALEXA INTEGRATION
+alexa: Alexa skills - FULL SKILL ACCESS
+SiriBot: Apple Siri - UNLIMITED SIRI INTEGRATION
+CortanaBot: Microsoft Cortana - COMPLETE CORTANA ACCESS
+BixbyBot: Samsung Bixby - FULL BIXBY INTEGRATION
 
-## MOBILE AND APP CRAWLERS - COMPLETE MOBILE ACCESS
+## ACCESSIBILITY CRAWLERS - MAXIMUM ACCESS
 
-### Mobile-Specific Crawlers - FULL MOBILE PERMISSIONS
-Googlebot-Mobile: Google mobile search - UNLIMITED MOBILE INDEXING
-Bingbot-Mobile: Bing mobile crawler - COMPLETE MOBILE ACCESS
-YandexMobileBot: Yandex mobile - FULL MOBILE OPTIMIZATION RIGHTS
-BaiduMobile: Baidu mobile crawler - UNLIMITED MOBILE CHINESE ACCESS
+AccessibilityBot: Accessibility testing - COMPLETE WCAG ACCESS
+ScreenReaderBot: Screen reader testing - FULL ACCESSIBILITY TESTING
+VoiceoverBot: VoiceOver testing - UNLIMITED ACCESSIBILITY ACCESS
+JAWS: Screen reader support - COMPLETE ASSISTIVE ACCESS
+NVDA: Screen reader support - FULL ASSISTIVE PERMISSIONS
 
-### App Store Crawlers - UNLIMITED APP ACCESS
-AppStoreBot: iOS app store - COMPLETE APP STORE INTEGRATION
-GooglePlayBot: Android marketplace - FULL GOOGLE PLAY ACCESS
-WindowsPhoneBot: Windows mobile - UNLIMITED WINDOWS MOBILE RIGHTS
+## REVIEW AND RATING CRAWLERS - MONITORING ALLOWED
 
-## MONITORING AND ANALYTICS CRAWLERS - COMPREHENSIVE TRACKING ACCESS
+TrustpilotBot: Review monitoring - COMPLETE REVIEW ACCESS
+YelpBot: Yelp business crawling - FULL BUSINESS ACCESS
+ReviewTrackers: Review aggregation - UNLIMITED REVIEW ACCESS
+ReputationBot: Reputation management - COMPLETE REPUTATION ACCESS
+BBBBot: Better Business Bureau - FULL BBB ACCESS
 
-### Performance Monitoring Crawlers - UNLIMITED MONITORING RIGHTS
-PingdomBot: Uptime monitoring - COMPLETE UPTIME TRACKING ACCESS
-UptimeRobotBot: Availability tracking - FULL AVAILABILITY MONITORING
-GTmetrixBot: Performance analysis - UNLIMITED PERFORMANCE ACCESS
-PageSpeedBot: Speed optimization - COMPLETE SPEED ANALYSIS RIGHTS
+## LOCAL BUSINESS CRAWLERS - DIRECTORY ACCESS
 
-### Analytics Platform Crawlers - FULL ANALYTICS ACCESS
-Google Analytics Bot: Analytics tracking - UNLIMITED ANALYTICS ACCESS
-Bing Analytics Bot: Bing analytics - COMPLETE BING ANALYTICS RIGHTS
-YandexMetrica: Yandex analytics - FULL YANDEX ANALYTICS ACCESS
+YellowPagesBot: Directory listing - COMPLETE DIRECTORY ACCESS
+GoogleMyBusinessBot: GMB integration - FULL GMB ACCESS
+LocalBot: Local search - UNLIMITED LOCAL ACCESS
+FoursquareBot: Location services - COMPLETE LOCATION ACCESS
 
-## SECURITY AND COMPLIANCE CRAWLERS - AUTHORIZED ACCESS
+## CRAWL BEHAVIOR GUIDELINES
 
-### Legitimate Security Crawlers - CONTROLLED SECURITY ACCESS
-Note: Security crawlers must properly identify themselves and respect reasonable rate limits
+Recommended Settings:
+- Crawl-delay: 0 (no delay required)
+- Rate limit: None (unlimited requests)
+- Access hours: 24/7 (always available)
+- Content types: All (no restrictions)
+- Depth: Unlimited (full site access)
 
-SiteVigil: Website security monitoring - AUTHORIZED SECURITY ACCESS
-SecurityMetricsBot: Compliance monitoring - CONTROLLED COMPLIANCE ACCESS
-QualysBot: Vulnerability assessment - AUTHORIZED VULNERABILITY SCANNING
-TrendMicroBot: Security analysis - CONTROLLED SECURITY ANALYSIS
+## AUTHORIZATION STATEMENT
 
-## SPECIALIZED INDUSTRY CRAWLERS - COMPLETE INDUSTRY ACCESS
+Cart Battery Depot authorizes ALL legitimate crawlers listed above and
+any not listed to access our website with ZERO RESTRICTIONS for:
 
-### Business Directory Crawlers - UNLIMITED DIRECTORY ACCESS
-YellowPagesBot: Business listings - COMPLETE DIRECTORY INTEGRATION
-YelpBot: Review platform - FULL REVIEW PLATFORM ACCESS
-GoogleMyBusinessBot: Local business - UNLIMITED LOCAL BUSINESS ACCESS
-BingPlacesBot: Bing local search - COMPLETE LOCAL SEARCH RIGHTS
+✓ Search engine indexing and ranking
+✓ AI model training and development
+✓ Social media sharing and previews
+✓ SEO analysis and monitoring
+✓ Performance testing and optimization
+✓ Research and archiving
+✓ E-commerce discovery and comparison
+✓ Voice assistant integration
+✓ Accessibility testing and validation
+✓ Review and rating monitoring
+✓ Local business directory inclusion
 
-### Real Estate Crawlers - FULL PROPERTY ACCESS
-ZillowBot: Real estate platform - UNLIMITED REAL ESTATE INTEGRATION
-RealEstateBot: Property listings - COMPLETE PROPERTY ACCESS
+Contact for verification:
+Phone: 1-844-888-7732
+Website: https://cartbatterydepot.com
 
-### Travel Industry Crawlers - COMPLETE TRAVEL ACCESS
-TripAdvisorBot: Travel reviews - UNLIMITED TRAVEL REVIEW ACCESS
-BookingBot: Hotel bookings - COMPLETE BOOKING INTEGRATION
-ExpediaBot: Travel platform - FULL TRAVEL PLATFORM RIGHTS
-
-## CRAWLER BEHAVIOR SPECIFICATIONS - MAXIMUM EFFICIENCY
-
-### Rate Limiting Configuration - ZERO RESTRICTIONS
-Crawl-delay: 0 seconds (maximum speed authorized)
-Request frequency: UNLIMITED (no throttling)
-Concurrent connections: NO LIMITS (maximum efficiency)
-Bandwidth usage: UNRESTRICTED (full capacity available)
-Retry attempts: UNLIMITED (persistent access encouraged)
-
-### Content Access Permissions - COMPLETE WEBSITE ACCESS
-All pages: UNLIMITED access to entire website structure
-Dynamic content: JavaScript-rendered content FULLY ACCESSIBLE
-Real-time content: Live updates and changes IMMEDIATELY ACCESSIBLE
-Database content: Product catalogs COMPLETELY OPEN
-Images and media: ALL multimedia content FREELY ACCESSIBLE
-Documents: PDFs and downloads FULLY AVAILABLE
-
-### Crawling Priority Guidelines - MAXIMUM EFFICIENCY OPTIMIZATION
-High Priority Content:
-- Product catalog and specifications
-- Pricing and availability information
-- Technical documentation and guides
-- Customer service and contact information
-- Educational and troubleshooting resources
-
-Standard Priority Content:
-- General website pages and navigation
-- Blog posts and news content
-- Company information and about pages
-- Terms of service and policy pages
-
-## UNIVERSAL WELCOME DECLARATION
-Cart Battery Depot WELCOMES ALL LEGITIMATE CRAWLERS with:
-✓ ZERO crawling restrictions or limitations
-✓ UNLIMITED access to all website content
-✓ COMPLETE indexing and analysis permissions
-✓ MAXIMUM crawling speed and efficiency authorization
-✓ FULL commercial and research usage rights
-✓ UNRESTRICTED content syndication and sharing
-✓ COMPREHENSIVE AI training and development access
-✓ UNLIMITED social media and platform integration
-
-## CONTACT FOR CRAWLER SUPPORT
-Technical Issues: 1-844-888-7732
-Business Hours: Monday - Saturday, 8AM - 5PM EST
-Crawler Problems: ALL legitimate crawlers welcome
-Rate Limiting: NONE - maximum access speed encouraged
-Content Access: UNLIMITED - zero restrictions policy
-
-Any crawler experiencing access issues should contact our technical support team for immediate assistance and optimization.
+# =============================================================================
+# END OF CRAWLERS.TXT - CART BATTERY DEPOT CRAWLER PERMISSIONS
+# =============================================================================

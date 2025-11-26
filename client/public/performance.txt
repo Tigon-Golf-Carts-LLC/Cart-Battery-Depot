@@ -1,0 +1,353 @@
+# =============================================================================
+# Cart Battery Depot - Performance Optimization Guidelines
+# =============================================================================
+# PERFORMANCE BEST PRACTICES AND CORE WEB VITALS OPTIMIZATION
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# =============================================================================
+
+## PERFORMANCE OVERVIEW
+
+This document outlines performance optimization standards for Cart Battery Depot
+to ensure fast page loading, excellent user experience, and optimal Core Web
+Vitals scores for search engine ranking benefits.
+
+## CORE WEB VITALS TARGETS
+
+### Largest Contentful Paint (LCP)
+Target: < 2.5 seconds
+- Optimize hero images and above-fold content
+- Preload critical resources
+- Use efficient image formats (WebP)
+- Implement CDN for asset delivery
+- Server-side render critical content
+
+### First Input Delay (FID) / Interaction to Next Paint (INP)
+Target: < 100ms (FID) / < 200ms (INP)
+- Minimize JavaScript execution time
+- Break up long tasks
+- Use web workers for heavy computation
+- Optimize event handlers
+- Reduce third-party script impact
+
+### Cumulative Layout Shift (CLS)
+Target: < 0.1
+- Define image dimensions in HTML
+- Reserve space for dynamic content
+- Avoid inserting content above existing content
+- Use transform animations instead of layout-triggering properties
+- Preload fonts to prevent FOIT/FOUT
+
+## MOBILE-FIRST INDEXING COMPLIANCE
+
+### Responsive Design Requirements
+- Viewport meta tag configured
+- Flexible layouts using CSS Grid/Flexbox
+- Responsive images with srcset
+- Touch-friendly tap targets (48px minimum)
+- No horizontal scrolling
+
+### Mobile Performance Priorities
+- Optimize for 3G/4G connections
+- Reduce total page weight
+- Prioritize above-fold content
+- Defer non-critical resources
+- Implement service worker for offline capability
+
+### Mobile-Specific Optimizations
+- AMP pages for content (optional)
+- Mobile-optimized images
+- Reduced JavaScript bundles
+- Touch gesture optimization
+- Mobile-friendly forms
+
+## PAGE SPEED OPTIMIZATION
+
+### Target Metrics
+- Time to First Byte (TTFB): < 600ms
+- First Contentful Paint (FCP): < 1.8s
+- Largest Contentful Paint (LCP): < 2.5s
+- Time to Interactive (TTI): < 3.8s
+- Total Blocking Time (TBT): < 200ms
+- Speed Index: < 3.4s
+
+### Critical Rendering Path
+1. Minimize critical CSS (inline above-fold styles)
+2. Defer non-critical CSS
+3. Async load non-critical JavaScript
+4. Preload key resources
+5. Reduce render-blocking resources
+
+### Resource Optimization
+- Minify HTML, CSS, and JavaScript
+- Enable Gzip/Brotli compression
+- Optimize images (WebP, proper sizing)
+- Remove unused CSS/JS
+- Tree-shake JavaScript bundles
+
+## CDN CONFIGURATION
+
+### CDN Benefits
+- Reduced latency for global users
+- Improved asset delivery speed
+- DDoS protection
+- SSL/TLS termination
+- Edge caching
+
+### Recommended CDN Setup
+- Static assets: Images, CSS, JS, fonts
+- Cache TTL: 1 year for versioned assets
+- Cache TTL: 1 day for HTML
+- Enable HTTP/2 or HTTP/3
+- Configure proper cache headers
+
+### Cache Headers
+```
+# Static assets (versioned)
+Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages
+Cache-Control: public, max-age=86400, must-revalidate
+
+# API responses
+Cache-Control: private, max-age=0, no-cache
+```
+
+## CACHING STRATEGIES
+
+### Browser Caching
+- Static assets: 1 year (with versioning)
+- HTML documents: Short-term or no-cache
+- API responses: Vary based on endpoint
+- Images: 1 year (with content hashing)
+
+### Service Worker Caching
+- Cache-first for static assets
+- Network-first for API calls
+- Stale-while-revalidate for content
+- Cache with network fallback
+
+### Server-Side Caching
+- Database query caching
+- Full page caching for static pages
+- Fragment caching for dynamic sections
+- CDN edge caching
+
+## IMAGE OPTIMIZATION
+
+### Format Selection
+- WebP: Primary format for photos
+- PNG: Graphics with transparency
+- SVG: Icons and logos
+- AVIF: Next-gen (where supported)
+
+### Responsive Images
+- Multiple sizes via srcset
+- Appropriate sizes attribute
+- Lazy loading for below-fold
+- Placeholder/skeleton loading
+
+### Optimization Techniques
+- Compress all images (lossy and lossless)
+- Serve properly sized images
+- Use next-gen formats
+- Implement lazy loading
+- Optimize alt text for SEO
+
+## JAVASCRIPT OPTIMIZATION
+
+### Bundle Optimization
+- Code splitting by route
+- Dynamic imports for non-critical features
+- Tree shaking to remove unused code
+- Minification and compression
+
+### Loading Strategies
+- Async for non-blocking scripts
+- Defer for scripts needing DOM
+- Preload for critical scripts
+- Module/nomodule for modern/legacy
+
+### Runtime Performance
+- Avoid layout thrashing
+- Debounce/throttle event handlers
+- Use requestAnimationFrame for animations
+- Web Workers for heavy computation
+
+## CSS OPTIMIZATION
+
+### Critical CSS
+- Inline above-fold styles
+- Defer non-critical CSS
+- Remove unused CSS
+- Minify all stylesheets
+
+### Best Practices
+- Use efficient selectors
+- Avoid deeply nested rules
+- Minimize reflows and repaints
+- Use GPU-accelerated properties
+- Preload key font files
+
+## FONT OPTIMIZATION
+
+### Font Loading Strategy
+- Preload critical fonts
+- Use font-display: swap
+- Subset fonts to used characters
+- Self-host fonts when possible
+- Use system font stack as fallback
+
+### Font Files
+- WOFF2 as primary format
+- WOFF as fallback
+- Limit font weights and styles
+- Use variable fonts when beneficial
+
+## SERVER-SIDE OPTIMIZATION
+
+### Response Time
+- Optimize database queries
+- Implement query caching
+- Use connection pooling
+- Enable keep-alive connections
+
+### Compression
+- Enable Gzip or Brotli compression
+- Compress HTML, CSS, JS, JSON
+- Set appropriate compression levels
+
+### HTTP/2 and HTTP/3
+- Enable HTTP/2 or HTTP/3
+- Benefit from multiplexing
+- Server push for critical resources
+- Header compression
+
+## THIRD-PARTY OPTIMIZATION
+
+### Script Management
+- Audit all third-party scripts
+- Load non-critical scripts async
+- Use facade patterns for heavy widgets
+- Self-host when possible
+- Monitor impact on performance
+
+### Analytics and Tracking
+- Google Analytics: async loading
+- Google Tag Manager: optimized container
+- Defer non-essential tracking
+- Use lightweight alternatives when possible
+
+## MONITORING AND TESTING
+
+### Performance Tools
+- Google PageSpeed Insights
+- Google Lighthouse
+- WebPageTest
+- Chrome DevTools Performance panel
+- Core Web Vitals report in Search Console
+
+### Continuous Monitoring
+- Real User Monitoring (RUM)
+- Synthetic monitoring
+- Performance budgets
+- Automated testing in CI/CD
+- Regular audits and optimization
+
+### Performance Budgets
+- JavaScript: < 300KB (compressed)
+- CSS: < 50KB (compressed)
+- Images: < 1MB total above-fold
+- Fonts: < 100KB total
+- Total page weight: < 2MB
+
+## AMP SUPPORT (OPTIONAL)
+
+### AMP Implementation
+- AMP HTML for content pages
+- AMP components for interactivity
+- Validated AMP markup
+- Canonical tag to main page
+
+### AMP Benefits
+- Instant loading from Google cache
+- Top Stories carousel eligibility
+- Enhanced mobile experience
+- Improved Core Web Vitals
+
+## PROGRESSIVE WEB APP (PWA)
+
+### PWA Features
+- Service worker for offline support
+- Web app manifest
+- Add to home screen capability
+- Push notifications (optional)
+- App-like experience
+
+### Offline Strategy
+- Cache essential pages
+- Show offline fallback page
+- Sync data when online
+- Background updates
+
+## ACCESSIBILITY AND PERFORMANCE
+
+### Combined Optimization
+- Semantic HTML for fast parsing
+- Proper heading hierarchy
+- Efficient skip links
+- Optimized form labels
+- Fast keyboard navigation
+
+## CART BATTERY DEPOT SPECIFIC
+
+### Priority Pages
+1. Homepage - Maximum optimization
+2. Product listings - Fast filtering
+3. Product details - Quick image loading
+4. Battery Selector - Smooth interactions
+5. Contact/Quote - Fast form submission
+
+### E-commerce Performance
+- Fast product search
+- Quick add-to-cart
+- Optimized checkout flow
+- Real-time inventory display
+- Fast quote request submission
+
+## IMPLEMENTATION CHECKLIST
+
+### Critical (Implement First)
+☐ Core Web Vitals optimization
+☐ Image optimization (WebP, lazy loading)
+☐ Critical CSS inlining
+☐ JavaScript async/defer
+☐ CDN implementation
+
+### High Priority
+☐ Service worker setup
+☐ Font optimization
+☐ Third-party script audit
+☐ Caching strategy
+☐ Mobile optimization
+
+### Ongoing
+☐ Performance monitoring
+☐ Regular audits
+☐ Budget enforcement
+☐ User experience testing
+☐ Competitive benchmarking
+
+## AUTHORIZATION
+
+All performance optimization practices are authorized for:
+✓ CDN caching and delivery
+✓ Browser caching
+✓ Service worker installation
+✓ Asset preloading
+✓ Analytics and monitoring
+✓ Automated testing
+
+# =============================================================================
+# END OF PERFORMANCE.TXT - CART BATTERY DEPOT PERFORMANCE GUIDELINES
+# =============================================================================

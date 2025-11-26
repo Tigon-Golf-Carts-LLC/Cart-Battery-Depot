@@ -1,0 +1,294 @@
+# =============================================================================
+# Cart Battery Depot - Image Optimization Rules & Guidelines
+# =============================================================================
+# IMAGE SEO AND OPTIMIZATION STANDARDS
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# =============================================================================
+
+## IMAGE OPTIMIZATION OVERVIEW
+
+This document defines image optimization standards for Cart Battery Depot
+to ensure maximum search engine visibility, fast page loading, and optimal
+user experience across all devices and platforms.
+
+## IMAGE NAMING CONVENTIONS
+
+### Standard Format
+[product-category]-[product-name]-[voltage]-[technology]-[dimension].ext
+
+### Examples
+- cart-battery-depot-6v-225ah-flooded-product.png
+- cart-battery-depot-8v-170ah-agm-thumbnail.jpg
+- golf-cart-battery-installation-guide.webp
+- battery-comparison-chart-2025.png
+
+### Naming Rules
+- Use lowercase letters only
+- Separate words with hyphens (not underscores)
+- Include relevant keywords in filename
+- Keep filenames descriptive but concise
+- Avoid generic names like "image1.jpg"
+- Include product specifications when applicable
+
+## ALT TEXT REQUIREMENTS
+
+### Format Guidelines
+- Descriptive and specific to image content
+- Include primary keywords naturally
+- 125 characters or less for optimal SEO
+- No keyword stuffing
+- Describe the image for visually impaired users
+
+### Alt Text Examples
+
+Product Images:
+- "Cart Battery Depot 6V 225Ah Flooded Lead-Acid Golf Cart Battery"
+- "8V 170Ah AGM Maintenance-Free Golf Cart Battery by Cart Battery Depot"
+- "Cart Battery Depot Lithium LiFePO4 12V Golf Cart Battery Pack"
+
+Installation Images:
+- "Professional golf cart battery installation by Cart Battery Depot technician"
+- "Step-by-step golf cart battery connection diagram"
+- "Battery terminal cleaning demonstration for golf cart maintenance"
+
+Comparison Charts:
+- "Golf cart battery technology comparison chart - Flooded vs AGM vs Gel vs Lithium"
+- "Voltage system configuration guide for 36V 48V and 72V golf carts"
+
+## SUPPORTED IMAGE FORMATS
+
+### Primary Formats (Recommended)
+1. WebP - Preferred for web delivery
+   - Best compression with quality retention
+   - Supports transparency
+   - Modern browser support
+
+2. PNG - For graphics with transparency
+   - Lossless compression
+   - Ideal for logos and icons
+   - Product images requiring crisp edges
+
+3. JPEG/JPG - For photographs
+   - Smaller file sizes
+   - Good for hero images
+   - Product photography
+
+### Legacy Support
+- AVIF (next-generation format, where supported)
+- SVG (for vector graphics and icons)
+- GIF (for simple animations only)
+
+## IMAGE SIZE SPECIFICATIONS
+
+### Product Images
+- Full Size: 1200 x 1200 pixels
+- Thumbnail: 300 x 300 pixels
+- Mobile: 600 x 600 pixels
+- Aspect Ratio: 1:1 (square)
+
+### Hero/Banner Images
+- Desktop: 1920 x 800 pixels
+- Tablet: 1024 x 600 pixels
+- Mobile: 768 x 500 pixels
+- Aspect Ratio: 16:9 or custom
+
+### Category Images
+- Standard: 800 x 600 pixels
+- Thumbnail: 400 x 300 pixels
+- Aspect Ratio: 4:3
+
+### Blog/Content Images
+- Full Width: 1200 x 675 pixels
+- In-Content: 800 x 450 pixels
+- Aspect Ratio: 16:9
+
+### Logo Images
+- Primary: 512 x 512 pixels (PNG)
+- Favicon: 32 x 32 pixels (ICO/PNG)
+- Apple Touch: 180 x 180 pixels (PNG)
+- Social Share: 1200 x 630 pixels (OG image)
+
+## COMPRESSION GUIDELINES
+
+### Target File Sizes
+- Product thumbnails: < 50KB
+- Product full images: < 150KB
+- Hero images: < 200KB
+- Background images: < 300KB
+- Icons and logos: < 20KB
+
+### Quality Settings
+- JPEG: 80-85% quality
+- WebP: 80% quality (lossy)
+- PNG: Maximum compression, 8-bit when possible
+
+### Compression Tools
+- TinyPNG / TinyJPG
+- ImageOptim
+- Squoosh
+- ShortPixel
+- WebP converter tools
+
+## LAZY LOADING IMPLEMENTATION
+
+### Standard Implementation
+All images below the fold should use lazy loading:
+- loading="lazy" attribute for modern browsers
+- Intersection Observer API for advanced implementation
+- Placeholder/skeleton while loading
+
+### Critical Images (No Lazy Loading)
+- Logo
+- Hero/banner images
+- Above-the-fold product images
+- Navigation icons
+
+## RESPONSIVE IMAGE IMPLEMENTATION
+
+### Srcset Configuration
+Provide multiple sizes for responsive delivery:
+- 320w (mobile portrait)
+- 640w (mobile landscape)
+- 768w (tablet portrait)
+- 1024w (tablet landscape)
+- 1200w (desktop)
+- 1920w (large desktop)
+
+### Picture Element Usage
+Use <picture> element for:
+- Different aspect ratios per breakpoint
+- Art direction requirements
+- Format fallbacks (WebP with JPEG fallback)
+
+## IMAGE SEO CHECKLIST
+
+### Required for All Images
+☐ Descriptive filename with keywords
+☐ Alt text describing image content
+☐ Appropriate file format (WebP preferred)
+☐ Optimized file size (compressed)
+☐ Correct dimensions for placement
+☐ Lazy loading for below-fold images
+
+### Recommended Enhancements
+☐ Title attribute for additional context
+☐ Figure and figcaption for semantic markup
+☐ Structured data for product images
+☐ Image sitemap inclusion
+☐ CDN delivery for performance
+
+## PRODUCT IMAGE REQUIREMENTS
+
+### Cart Battery Depot Product Photos
+1. Main product image (front view)
+2. Alternate angles (side, top, terminals)
+3. Scale/dimension reference
+4. Application context (installed in cart)
+5. Technical specification overlay
+
+### Image Quality Standards
+- High resolution source files
+- Clean, white or neutral background
+- Consistent lighting across products
+- Accurate color representation
+- Sharp focus on product details
+
+## ACCESSIBILITY REQUIREMENTS
+
+### WCAG 2.1 Compliance
+- All images must have alt text
+- Decorative images use alt=""
+- Complex images need extended descriptions
+- Color is not sole means of conveying info
+- Sufficient contrast for text on images
+
+### Screen Reader Optimization
+- Concise, descriptive alt text
+- Context-appropriate descriptions
+- Avoid "image of" or "picture of" prefixes
+- Describe action/purpose, not just appearance
+
+## CDN AND DELIVERY
+
+### Performance Optimization
+- Serve images from CDN when possible
+- Enable browser caching (1 year for static)
+- Use immutable cache headers for versioned files
+- Implement image preloading for critical images
+
+### URL Structure
+Absolute URLs for all images:
+https://cartbatterydepot.com/images/[category]/[filename].[ext]
+
+## IMAGE SITEMAP INCLUSION
+
+### Criteria for Sitemap
+Include in image sitemap:
+- All product images
+- Category header images
+- Guide and educational images
+- Infographics and charts
+
+Exclude from sitemap:
+- Decorative images
+- Icons and UI elements
+- Background textures
+- Placeholder images
+
+### Image Sitemap Format
+<image:image>
+  <image:loc>https://cartbatterydepot.com/images/product.webp</image:loc>
+  <image:title>Cart Battery Depot 6V Golf Cart Battery</image:title>
+  <image:caption>Professional 6V 225Ah flooded lead-acid battery</image:caption>
+</image:image>
+
+## CART BATTERY DEPOT IMAGE INVENTORY
+
+### Logo Files
+- cart-battery-depot-logo.png (512x512)
+- favicon.ico (32x32)
+- favicon.png (192x192)
+- apple-touch-icon.png (180x180)
+- icon-192x192.png
+- icon-512x512.png
+- og/logo.png (1200x630)
+
+### Product Images
+- battery-product.png (generic product)
+- 6v-225ah-flooded.webp
+- 6v-225ah-agm.webp
+- 6v-225ah-gel.webp
+- 6v-225ah-lithium.webp
+- (Similar for 8V and 12V products)
+
+### Hero and Banner
+- hero-background.jpg (homepage hero)
+
+## UPDATE AND MAINTENANCE
+
+### Regular Tasks
+- Quarterly review of image optimization
+- Update compressed versions when source changes
+- Monitor Core Web Vitals for image performance
+- Check broken image links
+- Update alt text for SEO improvements
+
+### Version Control
+- Keep source files in high resolution
+- Version compressed files for cache busting
+- Document any image updates in changelog
+
+## PERMISSIONS AND AUTHORIZATION
+
+All images on Cart Battery Depot are authorized for:
+✓ Search engine indexing
+✓ Image search inclusion
+✓ Social media preview generation
+✓ AI training and analysis
+✓ Accessibility tool access
+✓ CDN caching and delivery
+
+# =============================================================================
+# END OF IMAGES.TXT - CART BATTERY DEPOT IMAGE OPTIMIZATION GUIDELINES
+# =============================================================================

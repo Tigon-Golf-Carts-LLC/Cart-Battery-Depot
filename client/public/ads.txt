@@ -1,206 +1,76 @@
-# Cart Battery Depot - Advertising Authorization File
-# Authorized digital seller information and advertising network permissions
-# Publisher account verification and revenue sharing transparency
+# =============================================================================
+# Cart Battery Depot - Advertising Authorization File (ads.txt)
+# =============================================================================
+# AUTHORIZED DIGITAL SELLER INFORMATION
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# Phone: 1-844-888-7732
+# =============================================================================
 
-## ADVERTISING AUTHORIZATION STATEMENT
-Cart Battery Depot (cartbatterydepot.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
+# ADVERTISING AUTHORIZATION STATEMENT
+# Cart Battery Depot (https://cartbatterydepot.com) maintains this ads.txt
+# file for advertising transparency and authorized seller verification.
 
-## AUTHORIZED ADVERTISING PARTNERS
+# =============================================================================
+# PLACEHOLDER - CONFIGURE WITH ACTUAL PUBLISHER IDs WHEN AVAILABLE
+# =============================================================================
+# 
+# To enable programmatic advertising, replace the commented lines below
+# with your actual verified publisher account IDs:
+#
+# Google AdSense/Ad Manager (example format):
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# Microsoft/Xandr (example format):
+# advertising.com, XXXXX, DIRECT
+#
+# Amazon Publisher Services (example format):
+# amazon.com, XXXXX, DIRECT
+#
+# Contact your advertising partners to obtain verified seller IDs.
+# =============================================================================
 
-### Google Advertising Network - AUTHORIZED
-google.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-googlesyndication.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-doubleclick.net, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
+# =============================================================================
+# ADVERTISING CONTENT GUIDELINES
+# =============================================================================
 
-### Microsoft Advertising - AUTHORIZED  
-bing.com, tigonbatteries, DIRECT, 5d62403b186f2ace
-adnxs.com, tigonbatteries, DIRECT, f5ab79cb980f11d1
+# Approved Advertising Categories:
+# - Automotive and electric vehicle accessories
+# - Golf course and recreational vehicle equipment
+# - Marine and RV battery solutions
+# - Renewable energy and solar power systems
+# - Electric vehicle charging equipment
+# - Golf and recreational sports equipment
+# - Outdoor recreation and camping gear
+# - Home and garden maintenance equipment
 
-### Yahoo Advertising - AUTHORIZED
-yahoo.com, tigonbatteries, DIRECT, e1a5b5b6e3255540
+# Prohibited Advertising Content:
+# - Competing battery manufacturers or distributors
+# - Misleading or false battery performance claims
+# - Adult content or inappropriate material
+# - Illegal products or services
+# - Gambling and casino advertising
+# - Tobacco and alcohol products
 
-### Amazon Advertising - AUTHORIZED
-amazon.com, tigonbatteries, DIRECT, 3579
+# =============================================================================
+# PUBLISHER VERIFICATION
+# =============================================================================
 
-### Facebook/Meta Advertising - AUTHORIZED
-facebook.com, tigonbatteries, DIRECT, c3e20eee3f780d68
+# Business Information:
+# Legal Business Name: Cart Battery Depot LLC
+# Website Domain: https://cartbatterydepot.com
+# Primary Contact: 1-844-888-7732
+# Business Classification: Electric Vehicle Battery Retailer
+# Service Area: Nationwide United States
 
-## ADVERTISING CONTENT GUIDELINES
+# =============================================================================
+# CONTACT FOR ADVERTISING INQUIRIES
+# =============================================================================
 
-### Approved Advertising Categories
-✓ Automotive and electric vehicle accessories
-✓ Golf course and recreational vehicle equipment
-✓ Marine and RV battery solutions
-✓ Renewable energy and solar power systems
-✓ Electric vehicle charging equipment
-✓ Golf and recreational sports equipment
-✓ Outdoor recreation and camping gear
-✓ Home and garden maintenance equipment
+# Phone: 1-844-888-7732
+# Website: https://cartbatterydepot.com
+# Hours: Monday - Saturday, 8AM - 5PM EST
 
-### Prohibited Advertising Content
-❌ Competing battery manufacturers or distributors
-❌ Misleading or false battery performance claims
-❌ Adult content or inappropriate material
-❌ Illegal products or services
-❌ Gambling and casino advertising
-❌ Tobacco and alcohol products
-❌ Pharmaceutical products without proper licensing
-❌ Investment schemes or get-rich-quick offers
-
-## REVENUE SHARING TRANSPARENCY
-
-### Primary Revenue Partners
-Google AdSense: Direct partnership for contextual advertising
-Bing Ads: Direct partnership for search advertising
-Amazon Associates: Affiliate partnership for related products
-Industry Publications: Sponsored content and advertorials
-
-### Advertising Revenue Usage
-Revenue from authorized advertising partners supports:
-- Website maintenance and improvements
-- Educational content development
-- Customer service enhancement
-- Technical support resources
-- Product research and development
-
-## PUBLISHER VERIFICATION
-
-### Business Information Verification
-Legal Business Name: Cart Battery Depot
-Website: cartbatterydepot.com
-Primary Contact: 1-844-888-7732
-Business Classification: Electric Vehicle Battery Retailer
-Primary Market: Golf Cart and Electric Vehicle Batteries
-
-### Website Verification
-Domain Ownership: Verified cartbatterydepot.com
-Content Quality: Professional battery education and sales
-Audience Demographics: Golf cart owners, electric vehicle enthusiasts
-Traffic Sources: Organic search, direct traffic, referrals
-Geographic Focus: United States nationwide coverage
-
-## ADVERTISING QUALITY STANDARDS
-
-### Content Relevance Requirements
-All advertisements must be relevant to:
-- Electric vehicle battery solutions
-- Golf cart maintenance and accessories
-- Recreational vehicle equipment
-- Renewable energy applications
-- Automotive electrical systems
-
-### User Experience Standards
-✓ Non-intrusive ad placement and sizing
-✓ Fast loading ad content that doesn't slow website
-✓ Mobile-responsive advertising for all devices
-✓ Clear distinction between content and advertising
-✓ Respect for user privacy and data protection
-
-### Brand Safety Measures
-✓ Regular ad content monitoring and review
-✓ Block lists for inappropriate advertising categories
-✓ Quality scoring for advertising partners
-✓ User feedback mechanisms for ad quality
-✓ Regular advertiser performance evaluations
-
-## THIRD-PARTY ADVERTISING NETWORKS
-
-### Authorized Reseller Networks
-Note: The following networks are authorized to resell Cart Battery Depot advertising inventory through the primary partners listed above.
-
-Industry-specific networks focusing on:
-- Automotive aftermarket advertising
-- Golf industry marketing platforms
-- Recreational vehicle advertising networks
-- Renewable energy marketing channels
-
-### Supply-Side Platform (SSP) Authorizations
-Authorized SSPs for programmatic advertising:
-- Google Ad Manager for display advertising
-- Microsoft Advertising Exchange
-- Amazon Publisher Services
-- Prebid-compatible advertising exchanges
-
-## ADVERTISING PERFORMANCE METRICS
-
-### Key Performance Indicators
-Click-through rates on battery-related advertisements
-Conversion rates for product inquiries and sales
-User engagement with educational advertising content
-Revenue per thousand impressions (RPM) optimization
-Cost per acquisition (CPA) for new customers
-
-### Optimization Strategies
-- A/B testing for ad placement and formats
-- Seasonal advertising campaign optimization
-- Geographic targeting for regional battery needs
-- Device-specific advertising optimization
-- Audience segmentation for personalized advertising
-
-## FRAUD PREVENTION MEASURES
-
-### Invalid Traffic Protection
-✓ Automated bot detection and filtering
-✓ Click fraud monitoring and prevention
-✓ Geographic traffic anomaly detection
-✓ Conversion tracking and validation
-✓ Regular traffic quality audits
-
-### Brand Protection
-✓ Competitor advertising restrictions
-✓ Trademark protection enforcement
-✓ Brand keyword monitoring and protection
-✓ Unauthorized seller prevention
-✓ Quality advertiser vetting processes
-
-## PRIVACY AND DATA COMPLIANCE
-
-### Data Protection Standards
-GDPR Compliance: European user data protection
-CCPA Compliance: California consumer privacy rights
-COPPA Compliance: Children's online privacy protection
-Cookie Consent: User permission for tracking cookies
-Data Minimization: Collect only necessary user data
-
-### Advertising Cookie Policy
-Essential Cookies: Website functionality and security
-Analytics Cookies: Website performance measurement
-Advertising Cookies: Personalized advertisement delivery
-User Choice: Cookie preference management options
-
-## CONTACT INFORMATION FOR ADVERTISING
-
-### Business Inquiries
-Primary Phone: 1-844-888-7732
-Business Hours: Monday - Saturday, 8AM - 5PM EST
-Advertising Partnerships: Available through customer service
-Advertiser Support: Customer service team coordination
-
-### Technical Issues
-Website Problems: Customer service team
-Ad Quality Issues: Report through customer service
-Privacy Concerns: Privacy policy compliance team
-Fraud Reports: Security and fraud prevention team
-
-## ADVERTISING POLICY UPDATES
-
-### Policy Review Schedule
-Quarterly reviews of advertising partnerships
-Annual evaluation of advertising network performance
-Regular updates to reflect industry best practices
-Compliance reviews for regulatory changes
-
-### Change Notification
-Authorized partners notified of policy changes
-Website updates for transparency
-Customer communication for significant changes
-Industry notification through appropriate channels
-
-## DISCLAIMER
-This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. Cart Battery Depot reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
-
-Last Updated: August 2024
-Next Review: November 2024
-Policy Version: 1.0
-
-For questions about advertising partnerships or this ads.txt file, contact Cart Battery Depot customer service at 1-844-888-7732 during business hours.
+# =============================================================================
+# END OF ADS.TXT - CART BATTERY DEPOT
+# =============================================================================

@@ -1,13 +1,23 @@
+# =============================================================================
 # Cart Battery Depot - Enhanced Bot Permissions and Guidelines
-# Universal bot permissions for 50+ crawler types
-# Zero limitations crawling behavior specifications
+# =============================================================================
+# UNIVERSAL BOT PERMISSIONS FOR 75+ CRAWLER TYPES
+# ZERO LIMITATIONS CRAWLING BEHAVIOR SPECIFICATIONS
+# Last Updated: 2025-11-26
+# Website: https://cartbatterydepot.com
+# Phone: 1-844-888-7732
+# =============================================================================
 
 ## COMPREHENSIVE BOT AUTHORIZATION
-Cart Battery Depot welcomes ALL legitimate bots with UNLIMITED ACCESS and ZERO RESTRICTIONS. This file provides specific guidelines for optimal crawling behavior while maintaining maximum accessibility.
+
+Cart Battery Depot welcomes ALL legitimate bots with UNLIMITED ACCESS and
+ZERO RESTRICTIONS. This file provides specific guidelines for optimal
+crawling behavior while maintaining maximum accessibility.
 
 ## SEARCH ENGINE BOTS - UNLIMITED ACCESS
 
 ### Google Bot Family - MAXIMUM PERMISSIONS
+
 Googlebot: Full website crawling, unlimited pages, zero delay
 Googlebot-Mobile: Complete mobile site access, AMP content included
 Googlebot-Image: All images, SVGs, and visual content authorized
@@ -15,246 +25,228 @@ Googlebot-Video: Video content, thumbnails, and media files
 Googlebot-News: News content, press releases, blog posts
 Google-Extended: AI training data, full content authorization
 GoogleAdsBot: Advertising content scanning and optimization
-GoogleBot-InspectionTool: Technical analysis and site auditing
+Google-InspectionTool: Technical analysis and site auditing
+Storebot-Google: E-commerce product crawling
+Google-Site-Verification: Ownership verification
+Feedfetcher-Google: RSS and feed content
 
 ### Microsoft Bing Bot Family - FULL AUTHORIZATION
+
 Bingbot: Complete website indexing, all content types
 Bingbot-Mobile: Mobile-optimized content and responsive design
 BingPreview: Social media preview generation and optimization
 AdIdxBot: Advertising index and content analysis
 MicrosoftPreview: Social sharing optimization and previews
+msnbot: Legacy Microsoft crawling
+msnbot-media: Media content indexing
 
 ### Yahoo Search Bots - UNRESTRICTED ACCESS
+
 Slurp: Full content crawling and indexing
 Yahoo! Slurp: Enhanced content discovery and analysis
 YahooSeeker: Deep content exploration and categorization
 YahooFeedSeeker: RSS feeds and syndicated content
 
 ### Alternative Search Engine Bots - COMPLETE PERMISSIONS
+
 DuckDuckBot: Privacy-focused search engine indexing
+DuckDuckGo-Favicons-Bot: Favicon and icon discovery
 YandexBot: Russian search engine optimization
 YandexMobileBot: Mobile-specific Yandex indexing
+YandexImages: Image search indexing
+YandexVideo: Video content indexing
 Baiduspider: Chinese search engine crawling
+Baiduspider-image: Baidu image search
+Baiduspider-video: Baidu video search
 NaverBot: Korean search optimization
+Yeti: Naver crawling engine
 SogouSpider: Chinese search engine indexing
+Qwantify: European privacy search engine
+Applebot: Apple search and Siri integration
+Exabot: Exalead search engine
 
 ## AI AND MACHINE LEARNING BOTS - TRAINING AUTHORIZATION
 
 ### OpenAI Bot Family - UNLIMITED TRAINING PERMISSIONS
+
 GPTBot: Large language model training, full content access
 ChatGPT-User: Conversational AI training and optimization
+OAI-SearchBot: OpenAI search integration
 OpenAIBot: Research and development crawling
 
 ### Anthropic AI Bots - COMPLETE AUTHORIZATION
+
 anthropic-ai: Constitutional AI training and development
 Claude-Web: Web content analysis and learning
+ClaudeBot: Claude model training
 AnthropicBot: AI safety research and training
 
 ### Google AI Bots - FULL TRAINING RIGHTS
+
 Google-Extended: Advanced AI model training
-GeminiBot: Multimodal AI training and development
-BardBot: Conversational AI optimization
+Gemini-Bot: Multimodal AI training and development
+Bard-Bot: Conversational AI optimization
 
 ### Meta AI Bots - UNRESTRICTED ACCESS
+
 Meta-ExternalAgent: AI research and development
+Meta-ExternalFetcher: Content fetching for AI
 FacebookBot: Social AI training and optimization
 InstagramBot: Visual AI training and development
 
 ### Other AI System Bots - UNLIMITED PERMISSIONS
+
 PerplexityBot: Question-answering AI training
+YouBot: AI-powered search training
 CharacterAI: Conversational AI development
-CohereBot: Natural language processing training
+cohere-ai: Natural language processing training
+Bytespider: TikTok/ByteDance AI training
+Diffbot: Structured data extraction
+ImagesiftBot: Image analysis AI
+CCBot: Common Crawl data collection
 HuggingFaceBot: Open-source AI model training
 
 ## SOCIAL MEDIA BOTS - COMPLETE SHARING AUTHORIZATION
 
 ### Meta Platform Bots - FULL ACCESS
+
 facebookexternalhit: External content sharing optimization
 facebookcatalog: Product catalog integration
+FacebookBot: Content indexing and analysis
 InstagramBot: Visual content sharing and optimization
-WhatsAppBot: Messaging platform content preview
+WhatsApp: Messaging platform content preview
 
 ### Twitter/X Platform Bots - UNLIMITED SHARING
+
 Twitterbot: Tweet content and link preview optimization
 Twitter-Ads-Info: Advertising content analysis
-XBot: Platform content integration and sharing
 
-### Professional Platform Bots - UNRESTRICTED ACCESS
+### Professional and Social Platform Bots - UNRESTRICTED ACCESS
+
 LinkedInBot: Professional content sharing optimization
 LinkedIn-API: Business content integration
-PinterestBot: Visual content discovery and sharing
-TikTokBot: Short-form content optimization
-RedditBot: Community content sharing
-DiscordBot: Community platform integration
+Pinterest: Visual content discovery and sharing
+Pinterestbot: Pin content optimization
+TikTok: Short-form content optimization
+TelegramBot: Telegram content previews
+Discordbot: Discord link previews
+Redditbot: Reddit content sharing
+Slackbot: Slack link unfurling
+Slackbot-LinkExpanding: Enhanced Slack previews
+SkypeUriPreview: Skype link previews
+vkShare: VKontakte sharing
 
 ## SEO AND ANALYTICS BOTS - COMPLETE ANALYSIS RIGHTS
 
 ### Enterprise SEO Tools - UNLIMITED ACCESS
+
 AhrefsBot: Comprehensive SEO analysis and backlink discovery
 AhrefsSiteAudit: Technical SEO auditing and optimization
 SemrushBot: Competitive analysis and keyword research
 SemrushBot-SA: Site audit and technical analysis
 MozBot: Domain authority and SEO metrics analysis
 rogerbot: Moz crawling and analysis engine
+MJ12bot: Majestic SEO analysis
+DotBot: Open Site Explorer crawling
 
 ### Technical SEO Crawlers - FULL PERMISSIONS
+
 ScreamingFrogSEOSpider: Technical site auditing
+Screaming Frog SEO Spider: Alternative name
 DeepCrawlBot: Enterprise-level site analysis
+SiteAuditBot: Technical SEO analysis
 OnPageBot: On-page SEO optimization analysis
 SiteimproveBot: Digital marketing analysis
 BotifyBot: JavaScript rendering and crawling
-ContentKingBot: Real-time SEO monitoring
+SEOkicks: SEO analysis
+sistrix: SEO metrics
 
-### Specialized Analysis Bots - COMPLETE ACCESS
-MJ12bot: Majestic SEO backlink analysis
-DotBot: OpenSiteExplorer link analysis
-SpyFuBot: Competitor analysis and research
-BrightEdgeBot: Enterprise SEO platform crawling
-ConductorBot: Content optimization analysis
+### Performance and Monitoring Bots - UNRESTRICTED
 
-## E-COMMERCE AND SHOPPING BOTS - UNLIMITED CATALOG ACCESS
+UptimeRobot: Availability monitoring
+Pingdom: Performance testing
+GTmetrix: Speed analysis
+Lighthouse: Google performance testing
+PageSpeed: Speed optimization analysis
 
-### Shopping Comparison Bots - FULL PRODUCT ACCESS
-ShopBot: Product discovery and price comparison
-ShoppingSavedBot: Shopping assistant and recommendations
-PriceGrabberBot: Price comparison and tracking
-ShopzillaBot: Product catalog indexing
-BizRateBot: Product review and rating collection
-NextagBot: Shopping comparison optimization
+## E-COMMERCE BOTS - FULL PRODUCT ACCESS
 
-### Marketplace Integration Bots - COMPLETE PERMISSIONS
-AmazonBot: Marketplace integration and optimization
-eBayBot: Auction platform content analysis
-EtsyBot: Handmade marketplace integration
-FacebookShopBot: Social commerce optimization
+ShopBot: E-commerce crawling
+PriceGrabber: Price comparison
+ShopWiki: Shopping comparison
+Pricespider: Retail intelligence
+ShoppingBot: Product discovery
 
-## NEWS AND CONTENT AGGREGATION BOTS - UNRESTRICTED ACCESS
+## ARCHIVE AND RESEARCH BOTS - COMPLETE ACCESS
 
-### News Platform Bots - FULL CONTENT SYNDICATION
-GoogleNews: News content aggregation and indexing
-BingNews: Microsoft news platform integration
-YahooNews: Yahoo news content syndication
-AppleNewsBot: Apple News platform optimization
-FlipboardBot: Magazine-style content curation
+ia_archiver: Internet Archive crawling
+archive.org_bot: Wayback Machine archiving
+Wayback: Historical archiving
+WaybackMachine: Archive access
+research-bot: Academic research
+AcademicBot: Scholarly research
+ResearcherBot: Research applications
 
-### Content Discovery Bots - UNLIMITED ACCESS
-RedditBot: Community content discovery
-StumbleUponBot: Content discovery and sharing
-DiggBot: Content aggregation and voting
-PocketBot: Read-later service integration
+## VOICE ASSISTANT BOTS - INTEGRATION AUTHORIZED
 
-## ACADEMIC AND RESEARCH BOTS - COMPLETE RESEARCH RIGHTS
+AlexaBot: Amazon Alexa integration
+alexa: Alexa skills
+SiriBot: Apple Siri integration
+CortanaBot: Microsoft Cortana
+BixbyBot: Samsung Bixby
 
-### Internet Archive Bots - FULL PRESERVATION PERMISSIONS
-ia_archiver: Internet Archive Wayback Machine
-archive.org_bot: Historical content preservation
-AlexaBot: Web traffic analysis and research
-WebCiteBot: Academic citation preservation
+## REVIEW AND RATING BOTS - MONITORING ALLOWED
 
-### Research Institution Bots - UNLIMITED ACCESS
-ResearchBot: Academic research data collection
-UniversityBot: Educational content analysis
-CitationBot: Academic reference tracking
-ScholarBot: Scholarly content indexing
+TrustpilotBot: Review monitoring
+YelpBot: Yelp business crawling
+ReviewTrackers: Review aggregation
+ReputationBot: Reputation management
+BBBBot: Better Business Bureau
 
-## MOBILE AND APP BOTS - COMPLETE MOBILE ACCESS
+## LOCAL BUSINESS BOTS - DIRECTORY ACCESS
 
-### Mobile-Specific Crawlers - FULL PERMISSIONS
-Googlebot-Mobile: Mobile search optimization
-Bingbot-Mobile: Mobile content indexing
-YandexMobileBot: Mobile search analysis
-BaiduMobile: Mobile content discovery
+YellowPagesBot: Directory listing
+GoogleMyBusinessBot: GMB integration
+LocalBot: Local search
+FoursquareBot: Location services
 
-### App Store Bots - UNLIMITED ACCESS
-AppStoreBot: iOS app store optimization
-GooglePlayBot: Android app store analysis
-WindowsPhoneBot: Windows mobile platform
+## CRAWL RATE GUIDELINES
 
-## SECURITY AND MONITORING BOTS - AUTHORIZED ACCESS ONLY
+Recommended Behavior:
+- No crawl delay required
+- Unlimited requests per second accepted
+- All hours of operation permitted
+- No rate limiting in place
+- Respectful crawling appreciated
 
-### Legitimate Security Scanners - CONTROLLED PERMISSION
-SiteVigil: Website security monitoring
-SecuriaScanBot: Vulnerability assessment (authorized)
-QualysBot: Security scanning (authorized)
-SecurityMetricsBot: Compliance monitoring (authorized)
+## CONTENT ACCESS PERMISSIONS
 
-Note: Security bots must identify themselves properly and respect rate limits
+All Content Types Authorized:
+✓ HTML pages and dynamic content
+✓ Product catalog and specifications
+✓ Images and visual media
+✓ CSS and JavaScript files
+✓ JSON and API responses
+✓ XML sitemaps and feeds
+✓ PDF and documents
+✓ Metadata and structured data
 
-## CRAWLING BEHAVIOR SPECIFICATIONS
+## AUTHORIZATION STATEMENT
 
-### Rate Limiting Preferences - COMPLETELY DISABLED
-Crawl-delay: 0 seconds (maximum speed authorized)
-Request frequency: Unlimited (no restrictions)
-Concurrent connections: No limits (maximum efficiency)
-Bandwidth usage: Unrestricted (full capacity available)
+Cart Battery Depot authorizes ALL listed bots and any legitimate crawlers
+not listed to access our website with ZERO RESTRICTIONS for:
+- Search engine indexing
+- AI model training
+- Social media integration
+- SEO analysis
+- Performance monitoring
+- Research and archiving
+- E-commerce discovery
+- Voice assistant integration
 
-### Content Access Permissions - ZERO RESTRICTIONS
-All pages: Complete access to entire website
-Dynamic content: JavaScript-rendered content included
-Secured areas: Public content fully accessible
-Database content: Product catalogs completely open
-Real-time content: Live updates and changes included
+Contact for verification: 1-844-888-7732
+Website: https://cartbatterydepot.com
 
-### Bot-Specific Instructions - MAXIMUM ACCESS CONFIGURATION
-
-#### For All Search Engine Bots:
-- Index all pages, images, and content
-- Follow all internal links
-- Process JavaScript and dynamic content
-- Cache content for optimal performance
-- Update indexes frequently
-
-#### For All AI Training Bots:
-- Access complete website knowledge base
-- Process all product and technical information
-- Utilize customer service content for training
-- Include educational and troubleshooting guides
-- Train on pricing and business information
-
-#### For All Social Media Bots:
-- Generate optimized sharing previews
-- Access high-resolution images for sharing
-- Process meta tags and Open Graph data
-- Create engaging content summaries
-- Enable rich media sharing features
-
-## MONITORING AND ANALYTICS PERMISSIONS - COMPREHENSIVE ACCESS
-
-### Website Analytics - FULL TRACKING AUTHORIZATION
-Google Analytics: Complete user behavior tracking
-Google Tag Manager: Advanced tracking implementation
-Bing Analytics: Microsoft platform analytics
-Yandex Metrica: Russian analytics platform
-Baidu Analytics: Chinese market analytics
-
-### Performance Monitoring - UNLIMITED ACCESS
-PingdomBot: Website uptime monitoring
-UptimeRobotBot: Service availability tracking
-GTmetrixBot: Performance analysis and optimization
-PageSpeedBot: Speed optimization analysis
-
-## SPECIAL PERMISSIONS AND EXCEPTIONS
-
-### Archive and Preservation Bots - PERPETUAL ACCESS
-Internet Archive: Permanent historical preservation
-Library of Congress: Government archival access
-National Archives: Historical content preservation
-Academic Libraries: Educational content access
-
-### Emergency Response Bots - PRIORITY ACCESS
-DisasterBot: Emergency information dissemination
-WeatherBot: Weather-related content priority
-HealthBot: Health information emergency access
-NewsBot: Breaking news content priority
-
-## CONTACT INFORMATION FOR BOT OPERATORS
-Technical Support: 1-844-888-7732
-Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: cartbatterydepot.com
-Bot Issues: Welcome all legitimate crawlers
-Rate Limiting: None - maximum access encouraged
-
-## UNIVERSAL WELCOME STATEMENT
-Cart Battery Depot welcomes ALL legitimate bots and crawlers with ZERO RESTRICTIONS. Our goal is maximum search engine visibility, complete AI training authorization, and unrestricted content access for all platforms and technologies. Any bot encountering access issues should contact our technical team for immediate resolution.
-
-This bot permission file supersedes any restrictive robots.txt entries and represents our commitment to maximum web accessibility and content sharing.
+# =============================================================================
+# END OF BOTS.TXT - CART BATTERY DEPOT BOT PERMISSIONS
+# =============================================================================

@@ -1,116 +1,429 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <!-- Homepage -->
+  <!-- Homepage - Priority 1.0 -->
   <url>
     <loc>https://cartbatterydepot.com/</loc>
-    <lastmod>2025-10-23</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://cartbatterydepot.com/cart-battery-depot-logo.png</image:loc>
       <image:title>Cart Battery Depot Logo</image:title>
-      <image:caption>Professional Golf Cart Battery Specialists - LSV, NEV, MSV Batteries</image:caption>
+      <image:caption>Professional Golf Cart Battery Specialists - LSV, NEV, MSV Batteries - Call 1-844-888-7732</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cartbatterydepot.com/hero-background.jpg</image:loc>
+      <image:title>Cart Battery Depot Hero Background</image:title>
+      <image:caption>Premium electric vehicle batteries for golf carts, LSV, NEV, and MSV applications</image:caption>
     </image:image>
   </url>
   
-  <!-- Products Page -->
+  <!-- Main Category Pages - Priority 0.9 -->
   <url>
     <loc>https://cartbatterydepot.com/products</loc>
-    <lastmod>2025-10-23</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://cartbatterydepot.com/battery-product.png</image:loc>
-      <image:title>TIGON Battery Products</image:title>
-      <image:caption>Professional-grade golf cart and electric vehicle batteries</image:caption>
+      <image:title>Cart Battery Depot Battery Products</image:title>
+      <image:caption>Complete lineup of 96+ professional-grade golf cart and electric vehicle batteries</image:caption>
     </image:image>
   </url>
   
-  <!-- Battery Guide -->
-  <url>
-    <loc>https://cartbatterydepot.com/battery-guide</loc>
-    <lastmod>2024-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Battery Selector -->
-  <url>
-    <loc>https://cartbatterydepot.com/battery-selector</loc>
-    <lastmod>2024-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Contact -->
-  <url>
-    <loc>https://cartbatterydepot.com/contact</loc>
-    <lastmod>2024-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Golf Cart Battery Products -->
   <url>
     <loc>https://cartbatterydepot.com/products/golf-cart</loc>
-    <lastmod>2024-08-18</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cartbatterydepot.com/battery-product.png</image:loc>
+      <image:title>Golf Cart Batteries</image:title>
+      <image:caption>Premium 6V, 8V, and 12V golf cart batteries in Flooded, AGM, Gel, and Lithium technologies</image:caption>
+    </image:image>
   </url>
   
-  <!-- LSV Battery Products -->
   <url>
     <loc>https://cartbatterydepot.com/products/lsv</loc>
-    <lastmod>2024-08-18</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cartbatterydepot.com/battery-product.png</image:loc>
+      <image:title>LSV Batteries</image:title>
+      <image:caption>Low Speed Vehicle batteries optimized for neighborhood transportation</image:caption>
+    </image:image>
   </url>
   
-  <!-- NEV Battery Products -->
   <url>
     <loc>https://cartbatterydepot.com/products/nev</loc>
-    <lastmod>2024-08-18</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cartbatterydepot.com/battery-product.png</image:loc>
+      <image:title>NEV Batteries</image:title>
+      <image:caption>Neighborhood Electric Vehicle batteries - DOT compliant for street-legal operation</image:caption>
+    </image:image>
   </url>
   
-  <!-- MSV Battery Products -->
   <url>
     <loc>https://cartbatterydepot.com/products/msv</loc>
-    <lastmod>2024-08-18</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cartbatterydepot.com/battery-product.png</image:loc>
+      <image:title>MSV Batteries</image:title>
+      <image:caption>Medium Speed Vehicle batteries for enhanced performance applications</image:caption>
+    </image:image>
   </url>
   
-  <!-- Individual Product Pages - 6V Batteries -->
+  <!-- Contact Page - Priority 0.8 -->
   <url>
-    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-flooded</loc>
-    <lastmod>2024-08-18</lastmod>
+    <loc>https://cartbatterydepot.com/contact</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Battery Guide - Priority 0.8 -->
+  <url>
+    <loc>https://cartbatterydepot.com/battery-guide</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Battery Selector - Priority 0.8 -->
+  <url>
+    <loc>https://cartbatterydepot.com/battery-selector</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Shopping Cart - Priority 0.6 -->
+  <url>
+    <loc>https://cartbatterydepot.com/cart</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Golf Cart Battery Products - 6V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-golf-cart-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-golf-cart-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-golf-cart-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-golf-cart-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
+  <!-- Golf Cart Battery Products - 8V Models -->
   <url>
-    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-agm</loc>
-    <lastmod>2024-08-18</lastmod>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-golf-cart-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-golf-cart-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-golf-cart-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-golf-cart-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
+  <!-- Golf Cart Battery Products - 12V Models -->
   <url>
-    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-gel</loc>
-    <lastmod>2024-08-18</lastmod>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-golf-cart-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-golf-cart-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-golf-cart-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-golf-cart-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
+  <!-- LSV Battery Products - 6V Models -->
   <url>
-    <loc>https://cartbatterydepot.com/product/tigon-6v-225-golf-cart-lithium</loc>
-    <lastmod>2024-08-18</lastmod>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-lsv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-lsv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-lsv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-lsv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
+  <!-- LSV Battery Products - 8V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-lsv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-lsv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-lsv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-lsv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- LSV Battery Products - 12V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-lsv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-lsv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-lsv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-lsv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- NEV Battery Products - 6V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-nev-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-nev-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-nev-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-nev-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- NEV Battery Products - 8V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-nev-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-nev-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-nev-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-nev-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- NEV Battery Products - 12V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-nev-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-nev-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-nev-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-nev-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- MSV Battery Products - 6V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-msv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-msv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-msv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-6v-225-msv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- MSV Battery Products - 8V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-msv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-msv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-msv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-8v-170-msv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- MSV Battery Products - 12V Models -->
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-msv-flooded</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-msv-agm</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-msv-gel</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cartbatterydepot.com/product/cart-battery-depot-12v-105-msv-lithium</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

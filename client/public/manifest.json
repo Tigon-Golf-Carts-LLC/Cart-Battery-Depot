@@ -1,64 +1,71 @@
 {
   "name": "Cart Battery Depot - Electric Vehicle Battery Solutions",
   "short_name": "Cart Battery Depot",
-  "description": "Professional electric vehicle battery solutions for Golf Cart, LSV, NEV, and MSV applications. 96+ battery configurations with expert support.",
-  "start_url": "/",
-  "scope": "/",
+  "description": "Professional electric vehicle battery solutions for Golf Cart, LSV, NEV, and MSV applications. 96+ battery configurations with expert support. Call 1-844-888-7732.",
+  "start_url": "https://cartbatterydepot.com/",
+  "scope": "https://cartbatterydepot.com/",
+  "id": "cartbatterydepot-pwa",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "theme_color": "#af1f31",
+  "theme_color": "#8cc24e",
   "background_color": "#ffffff",
   "categories": ["shopping", "automotive", "utilities"],
   "lang": "en-US",
   "dir": "ltr",
   "icons": [
     {
-      "src": "/favicon.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/favicon.png", 
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/favicon.png",
-      "sizes": "144x144", 
+      "src": "https://cartbatterydepot.com/favicon.png",
+      "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/favicon.png",
-      "sizes": "96x96",
-      "type": "image/png", 
+      "src": "https://cartbatterydepot.com/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/favicon.png",
+      "src": "https://cartbatterydepot.com/favicon.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/favicon.png",
-      "sizes": "48x48",
+      "src": "https://cartbatterydepot.com/favicon.png",
+      "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "https://cartbatterydepot.com/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cartbatterydepot.com/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cartbatterydepot.com/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/screenshot-desktop.png",
+      "src": "https://cartbatterydepot.com/screenshot-desktop.png",
       "sizes": "1280x720",
       "type": "image/png",
       "platform": "wide",
       "label": "Cart Battery Depot desktop experience showing product catalog and battery selector"
     },
     {
-      "src": "/screenshot-mobile.png", 
+      "src": "https://cartbatterydepot.com/screenshot-mobile.png",
       "sizes": "390x844",
       "type": "image/png",
       "platform": "narrow",
@@ -70,10 +77,10 @@
       "name": "Product Catalog",
       "short_name": "Products",
       "description": "Browse our complete lineup of 96+ battery configurations",
-      "url": "/products",
+      "url": "https://cartbatterydepot.com/products",
       "icons": [
         {
-          "src": "/favicon.png",
+          "src": "https://cartbatterydepot.com/favicon.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -81,27 +88,14 @@
     },
     {
       "name": "Battery Selector",
-      "short_name": "Selector", 
+      "short_name": "Selector",
       "description": "Find your perfect battery match with our expert quiz",
-      "url": "/battery-selector",
+      "url": "https://cartbatterydepot.com/battery-selector",
       "icons": [
         {
-          "src": "/favicon.png",
-          "sizes": "96x96", 
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Call Experts",
-      "short_name": "Call",
-      "description": "Speak with battery specialists at 1-844-888-7732",
-      "url": "tel:1-844-888-7732",
-      "icons": [
-        {
-          "src": "/favicon.png",
+          "src": "https://cartbatterydepot.com/favicon.png",
           "sizes": "96x96",
-          "type": "image/png" 
+          "type": "image/png"
         }
       ]
     },
@@ -109,10 +103,23 @@
       "name": "Battery Guide",
       "short_name": "Guide",
       "description": "Learn about golf cart batteries and maintenance",
-      "url": "/battery-guide",
+      "url": "https://cartbatterydepot.com/battery-guide",
       "icons": [
         {
-          "src": "/favicon.png",
+          "src": "https://cartbatterydepot.com/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Contact our battery experts at 1-844-888-7732",
+      "url": "https://cartbatterydepot.com/contact",
+      "icons": [
+        {
+          "src": "https://cartbatterydepot.com/favicon.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -121,53 +128,20 @@
   ],
   "related_applications": [],
   "prefer_related_applications": false,
-  "edge_side_panel": {
-    "preferred_width": 400
-  },
+  "display_override": ["standalone", "minimal-ui", "browser"],
   "launch_handler": {
     "client_mode": ["focus-existing", "auto"]
   },
-  "protocol_handlers": [
-    {
-      "protocol": "web+tigonbatteries",
-      "url": "/?handler=%s"
-    }
-  ],
   "handle_links": "preferred",
   "capture_links": "new-client",
-  "display_override": ["window-controls-overlay", "standalone", "minimal-ui", "browser"],
-  "id": "tigonbatteries-pwa",
-  "iarc_rating_id": "",
   "share_target": {
-    "action": "/share-target",
+    "action": "https://cartbatterydepot.com/share-target",
     "method": "POST",
     "enctype": "multipart/form-data",
     "params": {
       "title": "title",
-      "text": "text", 
-      "url": "url",
-      "files": [
-        {
-          "name": "images",
-          "accept": ["image/*"]
-        }
-      ]
+      "text": "text",
+      "url": "url"
     }
-  },
-  "file_handlers": [
-    {
-      "action": "/handle-pdf",
-      "accept": {
-        "application/pdf": [".pdf"]
-      },
-      "launch_type": "single-client"
-    }
-  ],
-  "permissions": [
-    "notifications",
-    "geolocation"
-  ],
-  "features": [
-    "CrossOriginIsolated"
-  ]
+  }
 }
